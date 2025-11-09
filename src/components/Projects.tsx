@@ -7,7 +7,8 @@ import painel7 from "@/assets/painel-7.jpg";
 import painel8 from "@/assets/painel-8.jpg";
 import leitoCabo1 from "@/assets/leito-cabo-1.jpg";
 import leitoCabo2 from "@/assets/leito-cabo-2.jpg";
-import leitoCabo3 from "@/assets/leito-cabo-3.jpg"; // Nova imagem adicionada
+import leitoCabo3 from "@/assets/leito-cabo-3.jpg";
+import leitoCabo4 from "@/assets/leito-cabo-4.jpg"; // Nova imagem adicionada
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -24,7 +25,7 @@ const Projects = () => {
     },
     {
       image: leitoCabo2,
-      images: [leitoCabo2, leitoCabo3], // Lista de imagens atualizada
+      images: [leitoCabo2, leitoCabo3, leitoCabo4], // Lista de imagens atualizada
       title: "Leitos para Cabo",
       category: "Infraestrutura Elétrica",
       location: "Instalação Industrial"
