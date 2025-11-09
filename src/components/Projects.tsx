@@ -5,8 +5,8 @@ import painel3 from "@/assets/painel-3.jpg";
 import painel4 from "@/assets/painel-4.jpg";
 import painel7 from "@/assets/painel-7.jpg";
 import painel8 from "@/assets/painel-8.jpg";
-import leitoCabo1 from "@/assets/leito-cabo-1.jpg"; // Imagem renomeada
-import leitoCabo2 from "@/assets/leito-cabo-2.jpg"; // Nova imagem adicionada
+import leitoCabo1 from "@/assets/leito-cabo-1.jpg"; // Mantido para referência, mas removido da lista de imagens do projeto
+import leitoCabo2 from "@/assets/leito-cabo-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -22,11 +22,11 @@ const Projects = () => {
       location: "Indústria - Pará"
     },
     {
-      image: leitoCabo1,
-      images: [leitoCabo1, leitoCabo2], // Novas imagens para Leitos para Cabo
-      title: "Leitos para Cabo", // Título atualizado
-      category: "Infraestrutura Elétrica", // Categoria atualizada
-      location: "Instalação Industrial" // Localização atualizada
+      image: leitoCabo2, // Define a segunda imagem como a principal
+      images: [leitoCabo2], // Remove leitoCabo1. Agora só tem leitoCabo2
+      title: "Leitos para Cabo",
+      category: "Infraestrutura Elétrica",
+      location: "Instalação Industrial"
     },
     {
       image: project3,
