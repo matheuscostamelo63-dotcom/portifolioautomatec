@@ -4,8 +4,9 @@ import painel2 from "@/assets/painel-2.jpg";
 import painel3 from "@/assets/painel-3.jpg";
 import painel4 from "@/assets/painel-4.jpg";
 import painel7 from "@/assets/painel-7.jpg";
-import painel8 from "@/assets/painel-8.jpg"; // Nova imagem adicionada
-import project2 from "@/assets/project-2.jpg";
+import painel8 from "@/assets/painel-8.jpg";
+import leitoCabo1 from "@/assets/leito-cabo-1.jpg"; // Imagem renomeada
+import leitoCabo2 from "@/assets/leito-cabo-2.jpg"; // Nova imagem adicionada
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -15,16 +16,17 @@ const Projects = () => {
   const projects = [
     {
       image: painel1,
-      images: [painel1, painel2, painel3, painel4, painel7, painel8], // Imagem adicionada aqui
+      images: [painel1, painel2, painel3, painel4, painel7, painel8],
       title: "Painéis de Controle e QTA",
       category: "Automação & Controle",
       location: "Indústria - Pará"
     },
     {
-      image: project2,
-      title: "Sistema Fotovoltaico",
-      category: "Energia Solar",
-      location: "Instalação Comercial"
+      image: leitoCabo1,
+      images: [leitoCabo1, leitoCabo2], // Novas imagens para Leitos para Cabo
+      title: "Leitos para Cabo", // Título atualizado
+      category: "Infraestrutura Elétrica", // Categoria atualizada
+      location: "Instalação Industrial" // Localização atualizada
     },
     {
       image: project3,
