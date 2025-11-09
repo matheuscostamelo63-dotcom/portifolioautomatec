@@ -3,8 +3,7 @@ import painel1 from "@/assets/painel-1.jpg";
 import painel2 from "@/assets/painel-2.jpg";
 import painel3 from "@/assets/painel-3.jpg";
 import painel4 from "@/assets/painel-4.jpg";
-import painel5 from "@/assets/painel-5.jpg";
-import painel6 from "@/assets/painel-6.jpg"; // Novo painel adicionado
+import painel7 from "@/assets/painel-7.jpg"; // Nova imagem adicionada
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
@@ -15,7 +14,7 @@ const Projects = () => {
   const projects = [
     {
       image: painel1,
-      images: [painel1, painel2, painel3, painel4, painel5, painel6], // Imagem adicionada aqui
+      images: [painel1, painel2, painel3, painel4, painel7], // Lista de imagens atualizada
       title: "Painéis de Controle e QTA",
       category: "Automação & Controle",
       location: "Indústria - Pará"
