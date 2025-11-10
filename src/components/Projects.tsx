@@ -27,7 +27,8 @@ import leitoCabo15 from "@/assets/leito-cabo-15.jpg";
 import leitoCabo16 from "@/assets/leito-cabo-16.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
-import fabricacao1 from "@/assets/fabricacao-1.jpg"; // Nova imagem
+import fabricacao1 from "@/assets/fabricacao-1.jpg";
+import fabricacao2 from "@/assets/fabricacao-2.jpg"; // Nova imagem
 import altaTensao1 from "@/assets/alta-tensao-1.jpg";
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
 import altaTensao3 from "@/assets/alta-tensao-3.jpg";
@@ -104,8 +105,8 @@ const Projects = () => {
       location: "Complexo Industrial"
     },
     {
-      image: fabricacao1, // Usando a nova imagem como principal
-      images: [fabricacao1], // Apenas a nova imagem na galeria por enquanto
+      image: fabricacao1,
+      images: [fabricacao1, fabricacao2], // Adicionando fabricacao2
       title: "Fabricação e Montagem Industrial",
       category: "Engenharia Eletromecânica",
       location: "Projetos Customizados"
