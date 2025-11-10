@@ -1,8 +1,9 @@
 import denpasaLogo from '@/assets/clients/denpasa-logo.png';
+import oleoplanLogo from '@/assets/clients/oleoplan-logo.png';
 
 const clients = [
   { name: 'Denpasa', logo: denpasaLogo },
-  { name: 'Oleo Plan', logo: null },
+  { name: 'Oleo Plan', logo: oleoplanLogo },
   { name: 'Vila Nova Agroindustrial', logo: null },
 ];
 
