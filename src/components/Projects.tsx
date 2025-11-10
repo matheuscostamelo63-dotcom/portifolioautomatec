@@ -70,7 +70,9 @@ const projects = [
       "Montagem de quadros de comando com CLPs e IHMs.",
       "Integração de sistemas de supervisão (SCADA).",
       "Comissionamento e startup de painéis de automação.",
-      "Quadros de Transferência Automática (QTA) para geradores."
+      "Quadros de Transferência Automática (QTA) para geradores.",
+      "Lançamento de cabos (predial/industrial) para instalações de Alta e Baixa Tensão, seguindo normas e APR.",
+      "Instalação e estruturação de redes com cabos de Fibra Óptica."
     ]
   },
   {
