@@ -17,7 +17,7 @@ import leitoCabo9 from "@/assets/leito-cabo-9.jpg";
 import leitoCabo10 from "@/assets/leito-cabo-10.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
-import altaTensao1 from "@/assets/alta-tensao-1.jpg"; // Nova imagem importada
+import altaTensao1 from "@/assets/alta-tensao-1.jpg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -38,9 +38,9 @@ const Projects = () => {
       location: "Instalação Industrial"
     },
     {
-      image: altaTensao1, // Usando a nova imagem como capa
-      images: [altaTensao1, project3], // Adicionando a nova imagem e mantendo a antiga
-      title: "Infraestrutura Elétrica de Alta Tensão", // Título atualizado
+      image: altaTensao1,
+      images: [altaTensao1], // Removido project3.jpg
+      title: "Infraestrutura Elétrica de Alta Tensão",
       category: "Infraestrutura Elétrica",
       location: "Complexo Industrial"
     },
