@@ -31,11 +31,17 @@ import fabricacao1 from "@/assets/fabricacao-1.jpg";
 import fabricacao2 from "@/assets/fabricacao-2.jpg";
 import fabricacao3 from "@/assets/fabricacao-3.jpg";
 import fabricacao4 from "@/assets/fabricacao-4.jpg";
-import fabricacao5 from "@/assets/fabricacao-5.jpg"; // Nova imagem
-import fabricacao6 from "@/assets/fabricacao-6.jpg"; // Nova imagem
-import fabricacao7 from "@/assets/fabricacao-7.jpg"; // Nova imagem
-import fabricacao8 from "@/assets/fabricacao-8.jpg"; // Nova imagem
-import fabricacao9 from "@/assets/fabricacao-9.jpg"; // Nova imagem
+import fabricacao5 from "@/assets/fabricacao-5.jpg";
+import fabricacao6 from "@/assets/fabricacao-6.jpg";
+import fabricacao7 from "@/assets/fabricacao-7.jpg";
+import fabricacao8 from "@/assets/fabricacao-8.jpg";
+import fabricacao9 from "@/assets/fabricacao-9.jpg";
+import fabricacao10 from "@/assets/fabricacao-10.jpg"; // Nova imagem
+import fabricacao11 from "@/assets/fabricacao-11.jpg"; // Nova imagem
+import fabricacao12 from "@/assets/fabricacao-12.jpg"; // Nova imagem
+import fabricacao13 from "@/assets/fabricacao-13.jpg"; // Nova imagem
+import fabricacao14 from "@/assets/fabricacao-14.jpg"; // Nova imagem
+import fabricacao15 from "@/assets/fabricacao-15.jpg"; // Nova imagem
 import altaTensao1 from "@/assets/alta-tensao-1.jpg";
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
 import altaTensao3 from "@/assets/alta-tensao-3.jpg";
@@ -113,7 +119,23 @@ const Projects = () => {
     },
     {
       image: fabricacao1,
-      images: [fabricacao1, fabricacao2, fabricacao3, fabricacao4, fabricacao5, fabricacao6, fabricacao7, fabricacao8, fabricacao9], // Adicionando as novas imagens
+      images: [
+        fabricacao1, 
+        fabricacao2, 
+        fabricacao3, 
+        fabricacao4, 
+        fabricacao5, 
+        fabricacao6, 
+        fabricacao7, 
+        fabricacao8, 
+        fabricacao9,
+        fabricacao10, // Adicionando
+        fabricacao11, // Adicionando
+        fabricacao12, // Adicionando
+        fabricacao13, // Adicionando
+        fabricacao14, // Adicionando
+        fabricacao15  // Adicionando
+      ],
       title: "Fabricação e Montagem Industrial",
       category: "Engenharia Eletromecânica",
       location: "Projetos Customizados"
