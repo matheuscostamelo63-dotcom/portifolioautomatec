@@ -18,6 +18,7 @@ import leitoCabo10 from "@/assets/leito-cabo-10.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import altaTensao1 from "@/assets/alta-tensao-1.jpg";
+import altaTensao2 from "@/assets/alta-tensao-2.jpg"; // Nova imagem importada
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -39,7 +40,7 @@ const Projects = () => {
     },
     {
       image: altaTensao1,
-      images: [altaTensao1], // Removido project3.jpg
+      images: [altaTensao1, altaTensao2], // Lista de imagens atualizada
       title: "Infraestrutura Elétrica de Alta Tensão",
       category: "Infraestrutura Elétrica",
       location: "Complexo Industrial"
