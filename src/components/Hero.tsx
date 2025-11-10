@@ -36,8 +36,8 @@ const Hero = () => {
               className="w-48 md:w-64 lg:w-72 mx-auto mb-4 drop-shadow-[0_0_30px_rgba(96,165,250,0.3)]"
             />
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-heading font-bold tracking-wider mb-2">
-              <span className="text-primary">AUTO</span>
-              <span className="text-foreground">MATECH</span>
+              <span className="text-primary" translate="no">AUTO</span>
+              <span className="text-foreground" translate="no">MATECH</span>
             </h1>
             <div className="h-1 w-32 mx-auto bg-gradient-to-r from-transparent via-accent to-transparent" />
           </div>

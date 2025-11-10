@@ -105,7 +105,7 @@ const Services = () => {
 
                   <div className="flex-grow">
                     {/* Title */}
-                    <h3 className="text-xl font-heading font-semibold text-foreground mb-2">
+                    <h3 className="text-xl font-heading font-semibold text-foreground mb-2" translate="no">
                       {service.title}
                     </h3>
 

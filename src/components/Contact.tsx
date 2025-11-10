@@ -89,7 +89,7 @@ const Contact = () => {
           <div className="text-center space-y-4">
             <div className="flex items-center justify-center gap-3">
               <div className="h-px w-12 bg-gradient-to-r from-transparent to-primary" />
-              <h3 className="text-2xl font-heading font-bold">
+              <h3 className="text-2xl font-heading font-bold" translate="no">
                 <span className="text-primary">AUTO</span>
                 <span className="text-foreground">MATECH</span>
               </h3>

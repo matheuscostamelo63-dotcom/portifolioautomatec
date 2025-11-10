@@ -19,7 +19,7 @@ const About = () => {
           {/* Section Header */}
           <div className="text-center mb-16 slide-in-bottom">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
-              Sobre a <span className="text-primary">AUTOMATECH</span>
+              Sobre a <span className="text-primary" translate="no">AUTOMATECH</span>
             </h2>
             <div className="h-1 w-24 mx-auto bg-accent" />
           </div>

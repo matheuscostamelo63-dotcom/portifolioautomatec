@@ -80,7 +80,7 @@ const TechnicalDetails = () => {
                   <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary/20 to-accent/10 flex items-center justify-center flex-shrink-0">
                     <Icon className="w-6 h-6 text-primary" />
                   </div>
-                  <CardTitle className="text-xl font-heading text-foreground">{item.title}</CardTitle>
+                  <CardTitle className="text-xl font-heading text-foreground" translate="no">{item.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
