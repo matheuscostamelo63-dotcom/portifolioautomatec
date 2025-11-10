@@ -5,10 +5,10 @@ import painel3 from "@/assets/painel-3.jpg";
 import painel4 from "@/assets/painel-4.jpg";
 import painel7 from "@/assets/painel-7.jpg";
 import painel8 from "@/assets/painel-8.jpg";
-import painel9 from "@/assets/painel-9.jpg"; // Nova imagem
-import painel10 from "@/assets/painel-10.jpg"; // Nova imagem
-import painel11 from "@/assets/painel-11.jpg"; // Nova imagem
-import painel12 from "@/assets/painel-12.jpg"; // Nova imagem
+import painel9 from "@/assets/painel-9.jpg";
+import painel10 from "@/assets/painel-10.jpg";
+import painel11 from "@/assets/painel-11.jpg";
+import painel12 from "@/assets/painel-12.jpg";
 import leitoCabo1 from "@/assets/leito-cabo-1.jpg";
 import leitoCabo2 from "@/assets/leito-cabo-2.jpg";
 import leitoCabo3 from "@/assets/leito-cabo-3.jpg";
@@ -27,6 +27,7 @@ import leitoCabo15 from "@/assets/leito-cabo-15.jpg";
 import leitoCabo16 from "@/assets/leito-cabo-16.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
+import fabricacao1 from "@/assets/fabricacao-1.jpg"; // Nova imagem
 import altaTensao1 from "@/assets/alta-tensao-1.jpg";
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
 import altaTensao3 from "@/assets/alta-tensao-3.jpg";
@@ -50,7 +51,7 @@ const Projects = () => {
   const projects = [
     {
       image: painel1,
-      images: [painel1, painel2, painel3, painel4, painel7, painel8, painel9, painel10, painel11, painel12], // Lista de imagens atualizada
+      images: [painel1, painel2, painel3, painel4, painel7, painel8, painel9, painel10, painel11, painel12],
       title: "Painéis de Controle e QTA",
       category: "Automação & Controle",
       location: "Indústria - Pará"
@@ -103,10 +104,11 @@ const Projects = () => {
       location: "Complexo Industrial"
     },
     {
-      image: project4,
-      title: "Automação de Linha de Produção",
-      category: "Indústria 4.0",
-      location: "Manufatura Avançada"
+      image: fabricacao1, // Usando a nova imagem como principal
+      images: [fabricacao1], // Apenas a nova imagem na galeria por enquanto
+      title: "Fabricação e Montagem Industrial",
+      category: "Engenharia Eletromecânica",
+      location: "Projetos Customizados"
     }
   ];
 
