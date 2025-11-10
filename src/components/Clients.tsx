@@ -1,7 +1,9 @@
+import denpasaLogo from '@/assets/clients/denpasa-logo.png';
+
 const clients = [
-  'Denpasa',
-  'Oleo Plan',
-  'vila nova agroindustrial',
+  { name: 'Denpasa', logo: denpasaLogo },
+  { name: 'Oleo Plan', logo: null },
+  { name: 'Vila Nova Agroindustrial', logo: null },
 ];
 
 const Clients = () => {
@@ -24,12 +26,16 @@ const Clients = () => {
           {clients.map((client, index) => (
             <div
               key={index}
-              className="flex items-center justify-center p-6 bg-secondary/50 border border-border rounded-lg transition-all duration-300 hover:border-primary hover:bg-secondary"
+              className="flex items-center justify-center p-6 bg-secondary/50 border border-border rounded-lg transition-all duration-300 hover:border-primary hover:bg-secondary h-40"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <h3 className="text-xl font-semibold text-center text-muted-foreground group-hover:text-foreground transition-colors">
-                <span translate="no">{client}</span>
-              </h3>
+              {client.logo ? (
+                <img src={client.logo} alt={client.name} className="max-h-24 w-auto" />
+              ) : (
+                <h3 className="text-xl font-semibold text-center text-muted-foreground group-hover:text-foreground transition-colors">
+                  <span translate="no">{client.name}</span>
+                </h3>
+              )}
             </div>
           ))}
         </div>
