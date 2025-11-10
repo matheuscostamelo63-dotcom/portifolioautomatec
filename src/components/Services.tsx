@@ -165,7 +165,7 @@ const Services = () => {
               <Dialog key={index}>
                 <DialogTrigger asChild>
                   <Card 
-                    className={`bg-card/50 backdrop-blur-sm border-2 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 slide-in-bottom cursor-pointer ${getAccentColor(service.accent)}`}
+                    className={`bg-card/50 backdrop-blur-sm border-2 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 slide-in-bottom cursor-pointer print:break-inside-avoid ${getAccentColor(service.accent)}`}
                     style={{ animationDelay: `${index * 100}ms` }}
                   >
                     <CardContent className="p-6 space-y-4 flex flex-col h-full">

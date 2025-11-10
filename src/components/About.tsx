@@ -27,7 +27,7 @@ const About = () => {
           {/* Content Grid */}
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Left Column - Description */}
-            <div className="slide-in-left space-y-6">
+            <div className="slide-in-left space-y-6 print:break-inside-avoid">
               <div className="technical-border p-6 bg-secondary/30 backdrop-blur-sm">
                 <h3 className="text-2xl font-heading text-primary mb-4">Nossa História</h3>
                 <p className="text-foreground/90 leading-relaxed">
@@ -47,7 +47,7 @@ const About = () => {
             </div>
 
             {/* Right Column - Values */}
-            <div className="slide-in-right space-y-6">
+            <div className="slide-in-right space-y-6 print:break-inside-avoid">
               <div className="technical-border p-6 bg-secondary/30 backdrop-blur-sm">
                 <h3 className="text-2xl font-heading text-accent mb-6">Nossos Valores</h3>
                 <ul className="space-y-4">
