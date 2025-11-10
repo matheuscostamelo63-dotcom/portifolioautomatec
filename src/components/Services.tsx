@@ -27,9 +27,12 @@ const Services = () => {
       description: "Executamos instalações prediais e industriais, incluindo lançamento de cabos de alta/baixa tensão e fibra óptica, seguindo rigorosamente as normas técnicas e de segurança.",
       accent: "primary",
       technicalPoints: [
-        "Lançamento de todos os tipos de cabos (predial e industrial) seguindo as Normas Brasileiras.",
-        "Execução de instalações de alta e baixa tensão com base em Análise Preliminar de Risco (APR).",
-        "Estruturação de redes com cabos de Fibra Óptica para qualquer tipo de ambiente."
+        "Projeto e dimensionamento de infraestrutura elétrica (eletrocalhas, leitos, eletrodutos).",
+        "Lançamento e conexão de cabos de força, controle e instrumentação.",
+        "Instalação de redes de fibra óptica para comunicação de dados e automação.",
+        "Montagem de quadros de distribuição de luz e força (QDLF).",
+        "Execução de instalações em conformidade com as normas NBR 5410 e NR-10.",
+        "Comissionamento, testes de isolação (megômetro) e emissão de laudos técnicos."
       ]
     },
     {
@@ -38,9 +41,12 @@ const Services = () => {
       description: "Desenvolvemos soluções de automação para indústrias e geração de energia (turbo, diesel, solar), utilizando componentes de ponta para maximizar a produção sem paradas no processo.",
       accent: "accent",
       technicalPoints: [
-        "Soluções de automação para geração de energia (turbo, diesel, solar), serrarias e indústrias em geral.",
-        "Análise de processos para desenvolver a solução ideal, aumentando a eficiência e maximizando a produção.",
-        "Utilização de componentes de primeira linha, permitindo manutenções sem paralisar o processo industrial."
+        "Levantamento de requisitos e especificação de hardware (CLPs, IHMs, Inversores).",
+        "Programação de Controladores Lógicos Programáveis (CLPs) em linguagens como Ladder, FBD e ST.",
+        "Desenvolvimento de telas para Interfaces Homem-Máquina (IHMs) e sistemas SCADA.",
+        "Integração de redes industriais (Profinet, Modbus, Ethernet/IP).",
+        "Startup, comissionamento e otimização de malhas de controle (PID).",
+        "Foco em aumento de OEE (Overall Equipment Effectiveness) e rastreabilidade de processos."
       ]
     },
     {
@@ -49,9 +55,12 @@ const Services = () => {
       description: "Somos especialistas na montagem e manutenção de painéis de controle, proteção e excitação para sistemas de geração. Fornecemos painéis de automação (QTA) para projetos de qualquer complexidade.",
       accent: "primary",
       technicalPoints: [
-        "Especialização em montagem, controle, proteção e manutenção de sistemas de geração de energia.",
-        "Desenvolvimento de projetos de Painéis de Proteção e Excitação customizados para cada gerador.",
-        "Fornecimento de Painéis de Automação (QTA) para sistemas de qualquer complexidade."
+        "Projeto de painéis utilizando software CAD (AutoCAD Electrical, EPLAN).",
+        "Montagem de Quadros de Comando e Controle de Motores (QCCMs) e gavetas extraíveis.",
+        "Fabricação de Quadros de Transferência Automática (QTA) com lógica customizada.",
+        "Ensaios de rotina em conformidade com a norma NBR IEC 61439.",
+        "Retrofit e modernização de painéis existentes.",
+        "Documentação completa, incluindo diagramas elétricos, layout e lista de materiais."
       ]
     },
     {
@@ -60,9 +69,12 @@ const Services = () => {
       description: "Elaboramos e executamos projetos completos de usinas fotovoltaicas, desde a instalação de painéis e inversores até a interligação com a rede, garantindo máxima eficiência energética.",
       accent: "warning",
       technicalPoints: [
-        "Elaboração e execução de projetos completos de usinas fotovoltaicas, da instalação à interligação.",
-        "Implementação de painéis, inversores, cabeamento e subestações para máxima eficiência.",
-        "Garantia de conformidade com as normas técnicas para segurança e performance do sistema."
+        "Estudo de viabilidade, análise de sombreamento e dimensionamento do sistema fotovoltaico.",
+        "Elaboração de projeto executivo e homologação junto à concessionária de energia.",
+        "Instalação de estruturas de fixação para diferentes tipos de telhado e solo.",
+        "Instalação de módulos fotovoltaicos, inversores de frequência e string-boxes.",
+        "Execução de infraestrutura de média tensão e subestações para grandes usinas.",
+        "Monitoramento de performance e manutenção preventiva do sistema."
       ]
     },
     {
@@ -71,9 +83,12 @@ const Services = () => {
       description: "Instalação e adequação de caixas de medição agrupadas para condomínios e empreendimentos, garantindo conformidade com as normas da concessionária local.",
       accent: "accent",
       technicalPoints: [
-        "Análise de carga e dimensionamento de sistemas de medição agrupada.",
-        "Instalação de centros de medição em conformidade com as normas da concessionária de energia.",
-        "Adequação de infraestrutura para medição individualizada em edifícios comerciais e residenciais."
+        "Projeto de centro de medição conforme padrão de entrada da concessionária.",
+        "Análise de demanda e dimensionamento de barramentos e disjuntores gerais.",
+        "Instalação de caixas de medição (Tipo N, Policarbonato) e ramais de entrada.",
+        "Adequação de prumadas elétricas em edifícios existentes.",
+        "Organização e identificação de circuitos para facilitar a manutenção.",
+        "Acompanhamento da vistoria e ligação junto à concessionária."
       ]
     },
     {
@@ -82,9 +97,12 @@ const Services = () => {
       description: "Construção e manutenção de redes de distribuição aérea de baixa e média tensão, incluindo postes, transformadores e ramais de ligação.",
       accent: "primary",
       technicalPoints: [
-        "Projeto e execução de redes de distribuição de energia em áreas urbanas e rurais.",
-        "Instalação de postes, transformadores, e equipamentos de proteção.",
-        "Manutenção preventiva e corretiva para garantir a confiabilidade do fornecimento de energia."
+        "Projeto e construção de redes de distribuição primária (Média Tensão) e secundária (Baixa Tensão).",
+        "Instalação de postes, cruzetas, isoladores e para-raios.",
+        "Montagem de estruturas para transformadores e equipamentos de proteção (religadores, chaves).",
+        "Lançamento de cabos de alumínio nus (CAA) e protegidos/multiplexados (CA).",
+        "Manutenção preditiva com inspeção termográfica.",
+        "Execução de ramais de ligação aéreos para consumidores."
       ]
     },
     {
@@ -93,9 +111,12 @@ const Services = () => {
       description: "Elétrica, civil e mecânica. SPDA, iluminação, estudos de seletividade, correção de fator de potência, dimensionamento de subestações.",
       accent: "accent",
       technicalPoints: [
-        "Elaboração de projetos elétricos completos (SPDA, iluminação, seletividade).",
-        "Estudos para correção de fator de potência e eficiência energética.",
-        "Dimensionamento e projeto de subestações de média e alta tensão."
+        "Elaboração de projetos de SPDA (Para-raios) com análise de risco e dimensionamento.",
+        "Projetos luminotécnicos para ambientes internos e externos com foco em eficiência.",
+        "Estudos de seletividade e coordenação da proteção para sistemas elétricos.",
+        "Análise de faturas de energia e projeto para correção de fator de potência.",
+        "Projeto e dimensionamento de subestações de média e alta tensão.",
+        "Emissão de laudos técnicos e ART (Anotação de Responsabilidade Técnica)."
       ]
     },
     {
@@ -104,9 +125,12 @@ const Services = () => {
       description: "Realizamos visitas técnicas para análise e orçamento detalhado de instalações, manutenções e projetos, sem custos adicionais, conforme acordo entre as partes.",
       accent: "primary",
       technicalPoints: [
-        "Realização de visitas técnicas para análise detalhada de instalações, manutenções e projetos.",
-        "Fornecimento de orçamento discriminado e transparente.",
-        "Serviço sem custos adicionais, conforme acordo prévio entre as partes."
+        "Diagnóstico técnico de instalações elétricas e de automação existentes.",
+        "Levantamento de campo (survey) para coleta de dados para novos projetos.",
+        "Análise de viabilidade técnica para implantação de novas tecnologias.",
+        "Elaboração de escopo técnico detalhado para licitações e cotações.",
+        "Desenvolvimento de propostas técnico-comerciais completas e detalhadas.",
+        "Consultoria especializada para tomada de decisão em investimentos de engenharia."
       ]
     }
   ];
