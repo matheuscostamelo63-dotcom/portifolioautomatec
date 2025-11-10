@@ -36,12 +36,12 @@ import fabricacao6 from "@/assets/fabricacao-6.jpg";
 import fabricacao7 from "@/assets/fabricacao-7.jpg";
 import fabricacao8 from "@/assets/fabricacao-8.jpg";
 import fabricacao9 from "@/assets/fabricacao-9.jpg";
-import fabricacao10 from "@/assets/fabricacao-10.jpg"; // Nova imagem
-import fabricacao11 from "@/assets/fabricacao-11.jpg"; // Nova imagem
-import fabricacao12 from "@/assets/fabricacao-12.jpg"; // Nova imagem
-import fabricacao13 from "@/assets/fabricacao-13.jpg"; // Nova imagem
-import fabricacao14 from "@/assets/fabricacao-14.jpg"; // Nova imagem
-import fabricacao15 from "@/assets/fabricacao-15.jpg"; // Nova imagem
+import fabricacao10 from "@/assets/fabricacao-10.jpg";
+import fabricacao11 from "@/assets/fabricacao-11.jpg";
+import fabricacao12 from "@/assets/fabricacao-12.jpg";
+import fabricacao13 from "@/assets/fabricacao-13.jpg";
+import fabricacao14 from "@/assets/fabricacao-14.jpg";
+import fabricacao15 from "@/assets/fabricacao-15.jpg";
 import altaTensao1 from "@/assets/alta-tensao-1.jpg";
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
 import altaTensao3 from "@/assets/alta-tensao-3.jpg";
@@ -113,7 +113,7 @@ const Projects = () => {
         altaTensao15, 
         altaTensao16  
       ],
-      title: "Infraestrutura Elétrica de Alta Tensão",
+      title: "Redes Aéreas", // Título alterado
       category: "Infraestrutura Elétrica",
       location: "Complexo Industrial"
     },
@@ -129,12 +129,12 @@ const Projects = () => {
         fabricacao7, 
         fabricacao8, 
         fabricacao9,
-        fabricacao10, // Adicionando
-        fabricacao11, // Adicionando
-        fabricacao12, // Adicionando
-        fabricacao13, // Adicionando
-        fabricacao14, // Adicionando
-        fabricacao15  // Adicionando
+        fabricacao10, 
+        fabricacao11, 
+        fabricacao12, 
+        fabricacao13, 
+        fabricacao14, 
+        fabricacao15  
       ],
       title: "Fabricação e Montagem Industrial",
       category: "Engenharia Eletromecânica",
