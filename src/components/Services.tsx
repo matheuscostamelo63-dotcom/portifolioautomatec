@@ -5,8 +5,8 @@ import {
   Sun, 
   FileText, 
   ClipboardCheck,
-  Gauge, // Novo ícone para Medições
-  Cable // Novo ícone para Redes Aéreas
+  Gauge,
+  Cable
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -15,25 +15,25 @@ const Services = () => {
     {
       icon: Zap,
       title: "Instalações Elétricas",
-      description: "Prediais e industriais. Infraestrutura completa: cabos, painéis, subestações, cabeamento estruturado e sistemas de iluminação de alta eficiência.",
+      description: "Executamos instalações prediais e industriais, incluindo lançamento de cabos de alta/baixa tensão e fibra óptica, seguindo rigorosamente as normas técnicas e de segurança.",
       accent: "primary"
     },
     {
       icon: Cpu,
       title: "Automação Industrial",
-      description: "Controle de processos com CLPs, sensores inteligentes, softwares de supervisão SCADA e integração total de sistemas produtivos.",
+      description: "Desenvolvemos soluções de automação para indústrias e geração de energia (turbo, diesel, solar), utilizando componentes de ponta para maximizar a produção sem paradas no processo.",
       accent: "accent"
     },
     {
       icon: PanelTop,
       title: "Painéis Elétricos e QTA",
-      description: "Montagem de painéis de controle, proteção, excitação e geração de energia. Fabricação customizada conforme especificação técnica do projeto.",
+      description: "Somos especialistas na montagem e manutenção de painéis de controle, proteção e excitação para sistemas de geração. Fornecemos painéis de automação (QTA) para projetos de qualquer complexidade.",
       accent: "primary"
     },
     {
       icon: Sun,
       title: "Geração de Energia Solar",
-      description: "Elaboração, instalação e integração de sistemas fotovoltaicos. Projetos dimensionados e executados conforme normas técnicas vigentes.",
+      description: "Elaboramos e executamos projetos completos de usinas fotovoltaicas, desde a instalação de painéis e inversores até a interligação com a rede, garantindo máxima eficiência energética.",
       accent: "warning"
     },
     {
@@ -56,8 +56,8 @@ const Services = () => {
     },
     {
       icon: ClipboardCheck,
-      title: "Estudos e Consultorias",
-      description: "Laudos técnicos, medições termográficas, análises de qualidade de energia, treinamentos NR10 e NR10-SEP, e assessoria especializada.",
+      title: "Estudos e Visitas Técnicas",
+      description: "Realizamos visitas técnicas para análise e orçamento detalhado de instalações, manutenções e projetos, sem custos adicionais, conforme acordo entre as partes.",
       accent: "primary"
     }
   ];
@@ -88,7 +88,7 @@ const Services = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
@@ -97,21 +97,23 @@ const Services = () => {
                 className={`bg-card/50 backdrop-blur-sm border-2 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 slide-in-bottom ${getAccentColor(service.accent)}`}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <CardContent className="p-6 space-y-4">
+                <CardContent className="p-6 space-y-4 flex flex-col h-full">
                   {/* Icon */}
-                  <div className={`w-14 h-14 rounded-lg bg-gradient-to-br from-${service.accent}/20 to-${service.accent}/5 flex items-center justify-center`}>
+                  <div className={`w-14 h-14 rounded-lg bg-gradient-to-br from-${service.accent}/20 to-${service.accent}/5 flex items-center justify-center flex-shrink-0`}>
                     <Icon className={`w-7 h-7 ${getAccentColor(service.accent).split(' ')[0]}`} />
                   </div>
 
-                  {/* Title */}
-                  <h3 className="text-xl font-heading font-semibold text-foreground">
-                    {service.title}
-                  </h3>
+                  <div className="flex-grow">
+                    {/* Title */}
+                    <h3 className="text-xl font-heading font-semibold text-foreground mb-2">
+                      {service.title}
+                    </h3>
 
-                  {/* Description */}
-                  <p className="text-muted-foreground leading-relaxed text-sm">
-                    {service.description}
-                  </p>
+                    {/* Description */}
+                    <p className="text-muted-foreground leading-relaxed text-sm">
+                      {service.description}
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
             );
