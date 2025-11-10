@@ -89,7 +89,7 @@ const Projects = () => {
         leitoCabo15, 
         leitoCabo16  
       ],
-      title: "Leitos para Cabo",
+      title: "Caminhamento para Cabos", // Título alterado
       category: "Infraestrutura Elétrica",
       location: "Instalação Industrial"
     },
@@ -113,7 +113,7 @@ const Projects = () => {
         altaTensao15, 
         altaTensao16  
       ],
-      title: "Redes Aéreas", // Título alterado
+      title: "Redes Aéreas",
       category: "Infraestrutura Elétrica",
       location: "Complexo Industrial"
     },
