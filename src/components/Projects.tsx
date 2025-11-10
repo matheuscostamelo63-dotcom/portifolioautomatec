@@ -59,71 +59,71 @@ import { ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-react";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog";
 
-const Projects = () => {
-  const projects = [
-    {
-      image: painel1,
-      images: [painel1, painel2, painel3, painel4, painel7, painel8, painel9, painel10, painel11, painel12],
-      title: "Painéis de Controle e QTA",
-      category: "Automação & Controle",
-      location: "Indústria - Pará",
-      technicalDetails: [
-        "Montagem de quadros de comando com CLPs e IHMs.",
-        "Integração de sistemas de supervisão (SCADA).",
-        "Comissionamento e startup de painéis de automação.",
-        "Quadros de Transferência Automática (QTA) para geradores."
-      ]
-    },
-    {
-      image: leitoCabo2,
-      images: [
-        leitoCabo2, leitoCabo3, leitoCabo4, leitoCabo5, leitoCabo6, leitoCabo7, leitoCabo8, 
-        leitoCabo9, leitoCabo10, leitoCabo11, leitoCabo12, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16  
-      ],
-      title: "Caminhamento para Cabos",
-      category: "Infraestrutura Elétrica",
-      location: "Instalação Industrial",
-      technicalDetails: [
-        "Instalação de eletrocalhas, perfilados e leitos para cabos.",
-        "Dimensionamento de infraestrutura para distribuição de cabos de força e controle.",
-        "Montagem em ambientes industriais com conformidade NBR 5410.",
-        "Organização e identificação de circuitos."
-      ]
-    },
-    {
-      image: altaTensao1,
-      images: [
-        altaTensao1, altaTensao2, altaTensao3, altaTensao4, altaTensao5, altaTensao6, altaTensao7, 
-        altaTensao8, altaTensao9, altaTensao10, altaTensao11, altaTensao12, altaTensao13, altaTensao14, altaTensao15, altaTensao16  
-      ],
-      title: "Redes Aéreas",
-      category: "Infraestrutura Elétrica",
-      location: "Complexo Industrial",
-      technicalDetails: [
-        "Construção de redes de distribuição de média tensão (13.8kV).",
-        "Instalação de transformadores e postes de concreto.",
-        "Manutenção preventiva em redes de distribuição.",
-        "Lançamento de cabos de alumínio multiplexados."
-      ]
-    },
-    {
-      image: fabricacao1,
-      images: [
-        fabricacao1, fabricacao2, fabricacao3, fabricacao4, fabricacao5, fabricacao6, fabricacao7, 
-        fabricacao8, fabricacao9, fabricacao10, fabricacao11, fabricacao12, fabricacao13, fabricacao14, fabricacao15  
-      ],
-      title: "Fabricação e Montagem Industrial",
-      category: "Engenharia Eletromecânica",
-      location: "Projetos Customizados",
-      technicalDetails: [
-        "Fabricação de estruturas metálicas e suportes.",
-        "Montagem de tubulações e equipamentos industriais.",
-        "Soldagem qualificada em diversos processos (TIG, MIG, Eletrodo).",
-        "Alinhamento de máquinas e conjuntos mecânicos."
-      ]
-    }
-  ];
+const projects = [
+  {
+    image: painel1,
+    images: [painel1, painel2, painel3, painel4, painel7, painel8, painel9, painel10, painel11, painel12],
+    title: "Painéis de Controle e QTA",
+    category: "Automação & Controle",
+    location: "Indústria - Pará",
+    technicalDetails: [
+      "Montagem de quadros de comando com CLPs e IHMs.",
+      "Integração de sistemas de supervisão (SCADA).",
+      "Comissionamento e startup de painéis de automação.",
+      "Quadros de Transferência Automática (QTA) para geradores."
+    ]
+  },
+  {
+    image: leitoCabo2,
+    images: [
+      leitoCabo2, leitoCabo3, leitoCabo4, leitoCabo5, leitoCabo6, leitoCabo7, leitoCabo8, 
+      leitoCabo9, leitoCabo10, leitoCabo11, leitoCabo12, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16  
+    ],
+    title: "Caminhamento para Cabos",
+    category: "Infraestrutura Elétrica",
+    location: "Instalação Industrial",
+    technicalDetails: [
+      "Instalação de eletrocalhas, perfilados e leitos para cabos.",
+      "Dimensionamento de infraestrutura para distribuição de cabos de força e controle.",
+      "Montagem em ambientes industriais com conformidade NBR 5410.",
+      "Organização e identificação de circuitos."
+    ]
+  },
+  {
+    image: altaTensao1,
+    images: [
+      altaTensao1, altaTensao2, altaTensao3, altaTensao4, altaTensao5, altaTensao6, altaTensao7, 
+      altaTensao8, altaTensao9, altaTensao10, altaTensao11, altaTensao12, altaTensao13, altaTensao14, altaTensao15, altaTensao16  
+    ],
+    title: "Redes Aéreas",
+    category: "Infraestrutura Elétrica",
+    location: "Complexo Industrial",
+    technicalDetails: [
+      "Construção de redes de distribuição de média tensão (13.8kV).",
+      "Instalação de transformadores e postes de concreto.",
+      "Manutenção preventiva em redes de distribuição.",
+      "Lançamento de cabos de alumínio multiplexados."
+    ]
+  },
+  {
+    image: fabricacao1,
+    images: [
+      fabricacao1, fabricacao2, fabricacao3, fabricacao4, fabricacao5, fabricacao6, fabricacao7, 
+      fabricacao8, fabricacao9, fabricacao10, fabricacao11, fabricacao12, fabricacao13, fabricacao14, fabricacao15  
+    ],
+    title: "Fabricação e Montagem Industrial",
+    category: "Engenharia Eletromecânica",
+    location: "Projetos Customizados",
+    technicalDetails: [
+      "Fabricação de estruturas metálicas e suportes.",
+      "Montagem de tubulações e equipamentos industriais.",
+      "Soldagem qualificada em diversos processos (TIG, MIG, Eletrodo).",
+      "Alinhamento de máquinas e conjuntos mecânicos."
+    ]
+  }
+];
 
+const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-card relative overflow-hidden">
       <div className="absolute bottom-0 left-0 w-1/2 h-1/2 opacity-5 grid-pattern" />
@@ -139,7 +139,8 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        {/* Interactive View for Screen */}
+        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto print:hidden">
           {projects.map((project, index) => (
             <Dialog key={index}>
               <DialogTrigger asChild>
@@ -168,6 +169,35 @@ const Projects = () => {
                 </div>
               </DialogContent>
             </Dialog>
+          ))}
+        </div>
+
+        {/* Static View for Printing */}
+        <div className="hidden print:block">
+          {projects.map((project, index) => (
+            <div key={`print-${index}`} className="mb-12 print:break-inside-avoid">
+              <h3 className="text-3xl font-heading font-bold text-foreground mb-2">{project.title}</h3>
+              <p className="text-lg text-muted-foreground mb-6">{project.category} - {project.location}</p>
+              
+              <h4 className="text-xl font-heading text-accent mb-4">Detalhes Técnicos</h4>
+              <ul className="space-y-2 mb-8">
+                {project.technicalDetails.map((detail, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                    <span className="text-foreground">{detail}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <h4 className="text-xl font-heading text-accent mb-4">Galeria de Imagens</h4>
+              <div className="grid grid-cols-2 gap-4">
+                {project.images.map((image, imgIndex) => (
+                  <div key={imgIndex} className="aspect-[4/3] overflow-hidden border border-border rounded">
+                    <img src={image} alt={`${project.title} - Imagem ${imgIndex + 1}`} className="w-full h-full object-contain bg-secondary" />
+                  </div>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>
