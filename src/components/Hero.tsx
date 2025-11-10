@@ -35,7 +35,7 @@ const Hero = () => {
               alt="AUTOMATECH Logo" 
               className="w-48 md:w-64 lg:w-72 mx-auto mb-4 drop-shadow-[0_0_30px_rgba(96,165,250,0.3)]"
             />
-            <h1 className="text-5xl md:text-6xl font-heading font-bold tracking-wider mb-2">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-heading font-bold tracking-wider mb-2">
               <span className="text-primary">AUTO</span>
               <span className="text-foreground">MATECH</span>
             </h1>
