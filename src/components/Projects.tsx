@@ -85,10 +85,12 @@ const projects = [
     category: "Infraestrutura Elétrica",
     location: "Instalação Industrial",
     technicalDetails: [
-      "Instalação de eletrocalhas, perfilados e leitos para cabos.",
-      "Dimensionamento de infraestrutura para distribuição de cabos de força e controle.",
-      "Montagem em ambientes industriais com conformidade NBR 5410.",
-      "Organização e identificação de circuitos."
+      "Instalação de leitos para sustentação e distribuição de cabos de alta, média e baixa tensão.",
+      "Estrutura com longarinas perfil 'U' (100x19/100x45mm) e travessas perfil 'C' (38x38/19x38mm).",
+      "Fornecimento em peças de 3000mm ou 6000mm com espaçamento de travessas de 200, 250 ou 500mm.",
+      "Fabricação em Aço SAE 1010/1020, Aço Inox (304/316) ou Alumínio.",
+      "Montagem em conformidade com a norma NBR 5410.",
+      "Organização e identificação completa dos circuitos."
     ]
   },
   {
