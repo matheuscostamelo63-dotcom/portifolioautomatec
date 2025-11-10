@@ -28,7 +28,7 @@ const Clients = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <h3 className="text-xl font-semibold text-center text-muted-foreground group-hover:text-foreground transition-colors">
-                {client}
+                <span translate="no">{client}</span>
               </h3>
             </div>
           ))}
