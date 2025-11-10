@@ -191,7 +191,7 @@ const Projects = () => {
 
               <h4 className="text-xl font-heading text-accent mb-4">Galeria de Imagens</h4>
               <div className="grid grid-cols-2 gap-4">
-                {project.images.map((image, imgIndex) => (
+                {project.images.slice(0, 4).map((image, imgIndex) => (
                   <div key={imgIndex} className="aspect-[4/3] overflow-hidden border border-border rounded">
                     <img src={image} alt={`${project.title} - Imagem ${imgIndex + 1}`} className="w-full h-full object-contain bg-secondary" />
                   </div>
