@@ -14,9 +14,10 @@ import leitoCabo6 from "@/assets/leito-cabo-6.jpg";
 import leitoCabo7 from "@/assets/leito-cabo-7.jpg";
 import leitoCabo8 from "@/assets/leito-cabo-8.jpg";
 import leitoCabo9 from "@/assets/leito-cabo-9.jpg";
-import leitoCabo10 from "@/assets/leito-cabo-10.jpg"; // Nova imagem adicionada
+import leitoCabo10 from "@/assets/leito-cabo-10.jpg";
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
+import altaTensao1 from "@/assets/alta-tensao-1.jpg"; // Nova imagem importada
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -31,14 +32,15 @@ const Projects = () => {
     },
     {
       image: leitoCabo2,
-      images: [leitoCabo2, leitoCabo3, leitoCabo4, leitoCabo5, leitoCabo6, leitoCabo7, leitoCabo8, leitoCabo9, leitoCabo10], // Lista de imagens atualizada
+      images: [leitoCabo2, leitoCabo3, leitoCabo4, leitoCabo5, leitoCabo6, leitoCabo7, leitoCabo8, leitoCabo9, leitoCabo10],
       title: "Leitos para Cabo",
       category: "Infraestrutura Elétrica",
       location: "Instalação Industrial"
     },
     {
-      image: project3,
-      title: "Subestação de Energia",
+      image: altaTensao1, // Usando a nova imagem como capa
+      images: [altaTensao1, project3], // Adicionando a nova imagem e mantendo a antiga
+      title: "Infraestrutura Elétrica de Alta Tensão", // Título atualizado
       category: "Infraestrutura Elétrica",
       location: "Complexo Industrial"
     },
