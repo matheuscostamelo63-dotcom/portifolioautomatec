@@ -1,10 +1,11 @@
 import denpasaLogo from '@/assets/clients/denpasa-logo.png';
 import oleoplanLogo from '@/assets/clients/oleoplan-logo.png';
+import vilaNovaLogo from '@/assets/clients/vila-nova-logo.png';
 
 const clients = [
   { name: 'Denpasa', logo: denpasaLogo },
   { name: 'Oleo Plan', logo: oleoplanLogo },
-  { name: 'Vila Nova Agroindustrial', logo: null },
+  { name: 'Vila Nova Agroindustrial', logo: vilaNovaLogo },
 ];
 
 const Clients = () => {
