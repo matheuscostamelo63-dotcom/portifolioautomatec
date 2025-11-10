@@ -5,6 +5,10 @@ import painel3 from "@/assets/painel-3.jpg";
 import painel4 from "@/assets/painel-4.jpg";
 import painel7 from "@/assets/painel-7.jpg";
 import painel8 from "@/assets/painel-8.jpg";
+import painel9 from "@/assets/painel-9.jpg"; // Nova imagem
+import painel10 from "@/assets/painel-10.jpg"; // Nova imagem
+import painel11 from "@/assets/painel-11.jpg"; // Nova imagem
+import painel12 from "@/assets/painel-12.jpg"; // Nova imagem
 import leitoCabo1 from "@/assets/leito-cabo-1.jpg";
 import leitoCabo2 from "@/assets/leito-cabo-2.jpg";
 import leitoCabo3 from "@/assets/leito-cabo-3.jpg";
@@ -26,19 +30,19 @@ import project4 from "@/assets/project-4.jpg";
 import altaTensao1 from "@/assets/alta-tensao-1.jpg";
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
 import altaTensao3 from "@/assets/alta-tensao-3.jpg";
-import altaTensao4 from "@/assets/alta-tensao-4.jpg"; // Nova imagem
-import altaTensao5 from "@/assets/alta-tensao-5.jpg"; // Nova imagem
-import altaTensao6 from "@/assets/alta-tensao-6.jpg"; // Nova imagem
-import altaTensao7 from "@/assets/alta-tensao-7.jpg"; // Nova imagem
-import altaTensao8 from "@/assets/alta-tensao-8.jpg"; // Nova imagem
-import altaTensao9 from "@/assets/alta-tensao-9.jpg"; // Nova imagem
-import altaTensao10 from "@/assets/alta-tensao-10.jpg"; // Nova imagem
-import altaTensao11 from "@/assets/alta-tensao-11.jpg"; // Nova imagem
-import altaTensao12 from "@/assets/alta-tensao-12.jpg"; // Nova imagem
-import altaTensao13 from "@/assets/alta-tensao-13.jpg"; // Nova imagem
-import altaTensao14 from "@/assets/alta-tensao-14.jpg"; // Nova imagem
-import altaTensao15 from "@/assets/alta-tensao-15.jpg"; // Nova imagem
-import altaTensao16 from "@/assets/alta-tensao-16.jpg"; // Nova imagem
+import altaTensao4 from "@/assets/alta-tensao-4.jpg";
+import altaTensao5 from "@/assets/alta-tensao-5.jpg";
+import altaTensao6 from "@/assets/alta-tensao-6.jpg";
+import altaTensao7 from "@/assets/alta-tensao-7.jpg";
+import altaTensao8 from "@/assets/alta-tensao-8.jpg";
+import altaTensao9 from "@/assets/alta-tensao-9.jpg";
+import altaTensao10 from "@/assets/alta-tensao-10.jpg";
+import altaTensao11 from "@/assets/alta-tensao-11.jpg";
+import altaTensao12 from "@/assets/alta-tensao-12.jpg";
+import altaTensao13 from "@/assets/alta-tensao-13.jpg";
+import altaTensao14 from "@/assets/alta-tensao-14.jpg";
+import altaTensao15 from "@/assets/alta-tensao-15.jpg";
+import altaTensao16 from "@/assets/alta-tensao-16.jpg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -46,7 +50,7 @@ const Projects = () => {
   const projects = [
     {
       image: painel1,
-      images: [painel1, painel2, painel3, painel4, painel7, painel8],
+      images: [painel1, painel2, painel3, painel4, painel7, painel8, painel9, painel10, painel11, painel12], // Lista de imagens atualizada
       title: "Painéis de Controle e QTA",
       category: "Automação & Controle",
       location: "Indústria - Pará"
@@ -80,19 +84,19 @@ const Projects = () => {
         altaTensao1, 
         altaTensao2, 
         altaTensao3,
-        altaTensao4, // Adicionado
-        altaTensao5, // Adicionado
-        altaTensao6, // Adicionado
-        altaTensao7, // Adicionado
-        altaTensao8, // Adicionado
-        altaTensao9, // Adicionado
-        altaTensao10, // Adicionado
-        altaTensao11, // Adicionado
-        altaTensao12, // Adicionado
-        altaTensao13, // Adicionado
-        altaTensao14, // Adicionado
-        altaTensao15, // Adicionado
-        altaTensao16  // Adicionado
+        altaTensao4, 
+        altaTensao5, 
+        altaTensao6, 
+        altaTensao7, 
+        altaTensao8, 
+        altaTensao9, 
+        altaTensao10, 
+        altaTensao11, 
+        altaTensao12, 
+        altaTensao13, 
+        altaTensao14, 
+        altaTensao15, 
+        altaTensao16  
       ],
       title: "Infraestrutura Elétrica de Alta Tensão",
       category: "Infraestrutura Elétrica",
