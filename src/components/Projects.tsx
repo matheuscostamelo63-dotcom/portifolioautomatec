@@ -30,7 +30,12 @@ import project4 from "@/assets/project-4.jpg";
 import fabricacao1 from "@/assets/fabricacao-1.jpg";
 import fabricacao2 from "@/assets/fabricacao-2.jpg";
 import fabricacao3 from "@/assets/fabricacao-3.jpg";
-import fabricacao4 from "@/assets/fabricacao-4.jpg"; // Nova imagem
+import fabricacao4 from "@/assets/fabricacao-4.jpg";
+import fabricacao5 from "@/assets/fabricacao-5.jpg"; // Nova imagem
+import fabricacao6 from "@/assets/fabricacao-6.jpg"; // Nova imagem
+import fabricacao7 from "@/assets/fabricacao-7.jpg"; // Nova imagem
+import fabricacao8 from "@/assets/fabricacao-8.jpg"; // Nova imagem
+import fabricacao9 from "@/assets/fabricacao-9.jpg"; // Nova imagem
 import altaTensao1 from "@/assets/alta-tensao-1.jpg";
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
 import altaTensao3 from "@/assets/alta-tensao-3.jpg";
@@ -108,7 +113,7 @@ const Projects = () => {
     },
     {
       image: fabricacao1,
-      images: [fabricacao1, fabricacao2, fabricacao3, fabricacao4], // Adicionando fabricacao4
+      images: [fabricacao1, fabricacao2, fabricacao3, fabricacao4, fabricacao5, fabricacao6, fabricacao7, fabricacao8, fabricacao9], // Adicionando as novas imagens
       title: "Fabricação e Montagem Industrial",
       category: "Engenharia Eletromecânica",
       location: "Projetos Customizados"
