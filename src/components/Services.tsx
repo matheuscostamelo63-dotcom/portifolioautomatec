@@ -4,7 +4,9 @@ import {
   PanelTop, 
   Sun, 
   FileText, 
-  ClipboardCheck 
+  ClipboardCheck,
+  Gauge, // Novo ícone para Medições
+  Cable // Novo ícone para Redes Aéreas
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -33,6 +35,18 @@ const Services = () => {
       title: "Geração de Energia Solar",
       description: "Elaboração, instalação e integração de sistemas fotovoltaicos. Projetos dimensionados e executados conforme normas técnicas vigentes.",
       accent: "warning"
+    },
+    {
+      icon: Gauge,
+      title: "Medições Agrupadas",
+      description: "Instalação e adequação de caixas de medição agrupadas para condomínios e empreendimentos, garantindo conformidade com as normas da concessionária local.",
+      accent: "accent"
+    },
+    {
+      icon: Cable,
+      title: "Redes Aéreas",
+      description: "Construção e manutenção de redes de distribuição aérea de baixa e média tensão, incluindo postes, transformadores e ramais de ligação.",
+      accent: "primary"
     },
     {
       icon: FileText,
