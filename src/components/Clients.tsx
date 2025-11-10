@@ -1,12 +1,7 @@
 const clients = [
   'Denpasa',
   'Oleo Plan',
-  'Agropalma',
-  'ADM',
-  'Bunge',
-  'Cargill',
-  'Amaggi',
-  'Hidrovias do Brasil',
+  'vila nova agroindustrial',
 ];
 
 const Clients = () => {
@@ -25,7 +20,7 @@ const Clients = () => {
         </div>
 
         {/* Clients Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {clients.map((client, index) => (
             <div
               key={index}
