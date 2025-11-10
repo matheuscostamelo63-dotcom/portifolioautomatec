@@ -27,8 +27,8 @@ const About = () => {
           {/* Content Grid */}
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Left Column - Description */}
-            <div className="slide-in-left space-y-6 print:break-inside-avoid">
-              <div className="technical-border p-6 bg-secondary/30 backdrop-blur-sm">
+            <div className="slide-in-left space-y-6">
+              <div className="technical-border p-6 bg-secondary/30 backdrop-blur-sm print:break-inside-avoid">
                 <h3 className="text-2xl font-heading text-primary mb-4">Nossa História</h3>
                 <p className="text-foreground/90 leading-relaxed">
                   Fundada em <span className="text-accent font-semibold">2019</span>, a AUTOMATECH consolidou-se 
@@ -37,7 +37,7 @@ const About = () => {
                 </p>
               </div>
 
-              <div className="technical-border p-6 bg-secondary/30 backdrop-blur-sm">
+              <div className="technical-border p-6 bg-secondary/30 backdrop-blur-sm print:break-inside-avoid">
                 <h3 className="text-2xl font-heading text-primary mb-4">Nossa Missão</h3>
                 <p className="text-foreground/90 leading-relaxed">
                   Entregar soluções técnicas de excelência que transformam processos industriais, 
@@ -47,8 +47,8 @@ const About = () => {
             </div>
 
             {/* Right Column - Values */}
-            <div className="slide-in-right space-y-6 print:break-inside-avoid">
-              <div className="technical-border p-6 bg-secondary/30 backdrop-blur-sm">
+            <div className="slide-in-right space-y-6">
+              <div className="technical-border p-6 bg-secondary/30 backdrop-blur-sm print:break-inside-avoid">
                 <h3 className="text-2xl font-heading text-accent mb-6">Nossos Valores</h3>
                 <ul className="space-y-4">
                   {values.map((value, index) => (
@@ -60,7 +60,7 @@ const About = () => {
                 </ul>
               </div>
 
-              <div className="p-6 bg-gradient-to-br from-primary/10 to-accent/5 border border-primary/30 rounded">
+              <div className="p-6 bg-gradient-to-br from-primary/10 to-accent/5 border border-primary/30 rounded print:break-inside-avoid">
                 <p className="text-lg font-body text-center text-foreground/90 italic">
                   "Transformando desafios técnicos em <span className="text-primary font-semibold">soluções eficientes</span> 
                   através de <span className="text-accent font-semibold">engenharia de excelência</span>"
