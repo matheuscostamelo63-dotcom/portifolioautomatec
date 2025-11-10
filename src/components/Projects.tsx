@@ -15,11 +15,17 @@ import leitoCabo7 from "@/assets/leito-cabo-7.jpg";
 import leitoCabo8 from "@/assets/leito-cabo-8.jpg";
 import leitoCabo9 from "@/assets/leito-cabo-9.jpg";
 import leitoCabo10 from "@/assets/leito-cabo-10.jpg";
+import leitoCabo11 from "@/assets/leito-cabo-11.jpg"; // Nova imagem
+import leitoCabo12 from "@/assets/leito-cabo-12.jpg"; // Nova imagem
+import leitoCabo13 from "@/assets/leito-cabo-13.jpg"; // Nova imagem
+import leitoCabo14 from "@/assets/leito-cabo-14.jpg"; // Nova imagem
+import leitoCabo15 from "@/assets/leito-cabo-15.jpg"; // Nova imagem
+import leitoCabo16 from "@/assets/leito-cabo-16.jpg"; // Nova imagem
 import project3 from "@/assets/project-3.jpg";
 import project4 from "@/assets/project-4.jpg";
 import altaTensao1 from "@/assets/alta-tensao-1.jpg";
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
-import altaTensao3 from "@/assets/alta-tensao-3.jpg"; // Nova imagem importada
+import altaTensao3 from "@/assets/alta-tensao-3.jpg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -34,14 +40,30 @@ const Projects = () => {
     },
     {
       image: leitoCabo2,
-      images: [leitoCabo2, leitoCabo3, leitoCabo4, leitoCabo5, leitoCabo6, leitoCabo7, leitoCabo8, leitoCabo9, leitoCabo10],
+      images: [
+        leitoCabo2, 
+        leitoCabo3, 
+        leitoCabo4, 
+        leitoCabo5, 
+        leitoCabo6, 
+        leitoCabo7, 
+        leitoCabo8, 
+        leitoCabo9, 
+        leitoCabo10,
+        leitoCabo11, // Adicionado
+        leitoCabo12, // Adicionado
+        leitoCabo13, // Adicionado
+        leitoCabo14, // Adicionado
+        leitoCabo15, // Adicionado
+        leitoCabo16  // Adicionado
+      ],
       title: "Leitos para Cabo",
       category: "Infraestrutura Elétrica",
       location: "Instalação Industrial"
     },
     {
       image: altaTensao1,
-      images: [altaTensao1, altaTensao2, altaTensao3], // Lista de imagens atualizada
+      images: [altaTensao1, altaTensao2, altaTensao3],
       title: "Infraestrutura Elétrica de Alta Tensão",
       category: "Infraestrutura Elétrica",
       location: "Complexo Industrial"
