@@ -241,11 +241,11 @@ const ProjectCard = ({ project, index }: { project: any; index: number }) => {
       {/* Content */}
       <div className="absolute bottom-0 left-0 right-0 p-6 transform transition-transform duration-300 group-hover:translate-y-0">
         <div className="mb-2">
-          <span className="inline-block px-3 py-1 text-xs font-semibold bg-primary/20 text-primary border border-primary/30 rounded-full">
+          <span className="inline-block px-3 py-1 text-xs font-semibold bg-primary/20 text-primary border border-primary/30 rounded-full" translate="no">
             {project.category}
           </span>
         </div>
-        <h3 className="text-2xl font-heading font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+        <h3 className="text-2xl font-heading font-bold text-foreground mb-2 group-hover:text-primary transition-colors" translate="no">
           {project.title}
         </h3>
         <p className="text-muted-foreground flex items-center gap-2">
