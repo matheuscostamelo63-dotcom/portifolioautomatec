@@ -119,20 +119,6 @@ const projects = [
       "Soldagem qualificada em diversos processos (TIG, MIG, Eletrodo).",
       "Alinhamento de máquinas e conjuntos mecânicos."
     ]
-  },
-  {
-    image: "/aterramento-a.jpg",
-    images: ["/aterramento-a.jpg", "/aterramento-b.jpg", "/aterramento-c.jpg", "/aterramento-d.jpg"],
-    title: "Instalação e Medição de Sistemas de Aterramento Elétrico",
-    category: "Segurança Elétrica",
-    location: "Projetos de Engenharia",
-    technicalDetails: [
-      "Projeto técnico conforme características do solo e das cargas instaladas.",
-      "Instalação de hastes, condutores e conexões com soldagem exotérmica.",
-      "Interligação e equipotencialização de painéis, estruturas e equipamentos.",
-      "Ensaios de resistência ôhmica do aterramento com terrômetro, para comprovar eficiência e conformidade.",
-      "Emissão de laudo técnico e ART com os resultados das medições."
-    ]
   }
 ];
 
