@@ -1,64 +1,15 @@
 import { useState } from "react";
-// Painel images
-import painel1 from "@/assets/painel-1.jpg";
-import painel2 from "@/assets/painel-2.jpg";
-import painel3 from "@/assets/painel-3.jpg";
-import painel4 from "@/assets/painel-4.jpg";
-import painel7 from "@/assets/painel-7.jpg";
-import painel8 from "@/assets/painel-8.jpg";
-import painel9 from "@/assets/painel-9.jpg";
-import painel10 from "@/assets/painel-10.jpg";
-import painel11 from "@/assets/painel-11.jpg";
-import painel12 from "@/assets/painel-12.jpg";
-
-// Leito Cabo images
-import leitoCaboNovo from "@/assets/leito-cabo-novo.jpg";
-import leitoCabo9 from "@/assets/leito-cabo-9.jpg";
-import leitoCabo13 from "@/assets/leito-cabo-13.jpg";
-import leitoCabo14 from "@/assets/leito-cabo-14.jpg";
-import leitoCabo15 from "@/assets/leito-cabo-15.jpg";
-import leitoCabo16 from "@/assets/leito-cabo-16.jpg";
-
-// Alta Tensao images
-import altaTensao2 from "@/assets/alta-tensao-2.jpg";
-import altaTensao3 from "@/assets/alta-tensao-3.jpg";
-import altaTensao4 from "@/assets/alta-tensao-4.jpg";
-import altaTensao6 from "@/assets/alta-tensao-6.jpg";
-import altaTensao7 from "@/assets/alta-tensao-7.jpg";
-import altaTensao8 from "@/assets/alta-tensao-8.jpg";
-import altaTensao9 from "@/assets/alta-tensao-9.jpg";
-import altaTensao10 from "@/assets/alta-tensao-10.jpg";
-import altaTensao12 from "@/assets/alta-tensao-12.jpg";
-import altaTensao13 from "@/assets/alta-tensao-13.jpg";
-import altaTensao14 from "@/assets/alta-tensao-14.jpg";
-import altaTensao15 from "@/assets/alta-tensao-15.jpg";
-import altaTensao16 from "@/assets/alta-tensao-16.jpg";
-
-// Fabricacao images
-import fabricacao1 from "@/assets/fabricacao-1.jpg";
-import fabricacao2 from "@/assets/fabricacao-2.jpg";
-import fabricacao3 from "@/assets/fabricacao-3.jpg";
-import fabricacao4 from "@/assets/fabricacao-4.jpg";
-import fabricacao5 from "@/assets/fabricacao-5.jpg";
-import fabricacao6 from "@/assets/fabricacao-6.jpg";
-import fabricacao7 from "@/assets/fabricacao-7.jpg";
-import fabricacao8 from "@/assets/fabricacao-8.jpg";
-import fabricacao9 from "@/assets/fabricacao-9.jpg";
-import fabricacao10 from "@/assets/fabricacao-10.jpg";
-import fabricacao11 from "@/assets/fabricacao-11.jpg";
-import fabricacao12 from "@/assets/fabricacao-12.jpg";
-import fabricacao13 from "@/assets/fabricacao-13.jpg";
-import fabricacao14 from "@/assets/fabricacao-14.jpg";
-import fabricacao15 from "@/assets/fabricacao-15.jpg";
-
-import { ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-react";
+import { ChevronLeft, ChevronRight, CheckCircle2, ImageOff } from "lucide-react";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog";
 
+// Definindo um placeholder para a imagem
+const PLACEHOLDER_IMAGE = "placeholder";
+
 const projects = [
   {
-    image: painel1,
-    images: [painel1, painel2, painel3, painel4, painel7, painel8, painel9, painel10, painel11, painel12],
+    image: PLACEHOLDER_IMAGE,
+    images: [PLACEHOLDER_IMAGE],
     title: "Painéis de Controle e QTA",
     category: "Automação & Controle",
     location: "Indústria - Pará",
@@ -72,10 +23,8 @@ const projects = [
     ]
   },
   {
-    image: leitoCaboNovo,
-    images: [
-      leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16  
-    ],
+    image: PLACEHOLDER_IMAGE,
+    images: [PLACEHOLDER_IMAGE],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
     location: "Instalação Industrial",
@@ -89,11 +38,8 @@ const projects = [
     ]
   },
   {
-    image: altaTensao2,
-    images: [
-      altaTensao2, altaTensao3, altaTensao4, altaTensao6, altaTensao7, 
-      altaTensao8, altaTensao9, altaTensao10, altaTensao12, altaTensao13, altaTensao14, altaTensao15, altaTensao16  
-    ],
+    image: PLACEHOLDER_IMAGE,
+    images: [PLACEHOLDER_IMAGE],
     title: "Redes Aéreas",
     category: "Infraestrutura Elétrica",
     location: "Complexo Industrial",
@@ -105,11 +51,8 @@ const projects = [
     ]
   },
   {
-    image: fabricacao1,
-    images: [
-      fabricacao1, fabricacao2, fabricacao3, fabricacao4, fabricacao5, fabricacao6, fabricacao7, 
-      fabricacao8, fabricacao9, fabricacao10, fabricacao11, fabricacao12, fabricacao13, fabricacao14, fabricacao15  
-    ],
+    image: PLACEHOLDER_IMAGE,
+    images: [PLACEHOLDER_IMAGE],
     title: "Fabricação e Montagem Industrial",
     category: "Engenharia Eletromecânica",
     location: "Projetos Customizados",
@@ -121,8 +64,8 @@ const projects = [
     ]
   },
   {
-    image: "/aterramento-a.jpg",
-    images: ["/aterramento-a.jpg", "/aterramento-b.jpg", "/aterramento-c.jpg", "/aterramento-d.jpg"],
+    image: PLACEHOLDER_IMAGE,
+    images: [PLACEHOLDER_IMAGE],
     title: "Instalação e Medição de Sistemas de Aterramento Elétrico",
     category: "Segurança Elétrica",
     location: "Projetos de Engenharia",
@@ -202,13 +145,9 @@ const Projects = () => {
                 ))}
               </ul>
 
-              <h4 className="text-xl font-heading text-accent mb-4">Galeria de Imagens</h4>
-              <div className="grid grid-cols-2 gap-4">
-                {project.images.slice(0, 4).map((image, imgIndex) => (
-                  <div key={imgIndex} className="aspect-[4/3] overflow-hidden border border-border rounded">
-                    <img src={image} alt={`${project.title} - Imagem ${imgIndex + 1}`} className="w-full h-full object-contain bg-secondary" />
-                  </div>
-                ))}
+              <h4 className="text-xl font-heading text-accent mb-4">Galeria de Imagens (Removida)</h4>
+              <div className="aspect-[4/3] flex items-center justify-center bg-secondary border border-border rounded text-muted-foreground">
+                <ImageOff className="w-10 h-10" />
               </div>
             </div>
           ))}
@@ -219,9 +158,21 @@ const Projects = () => {
 };
 
 const ProjectCarousel = ({ images, title }: { images: string[]; title: string }) => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const hasMultipleImages = images && images.length > 1;
+  const hasMultipleImages = images && images.length > 1 && images[0] !== PLACEHOLDER_IMAGE;
 
+  // Se for placeholder, renderiza o ícone
+  if (images[0] === PLACEHOLDER_IMAGE) {
+    return (
+      <div className="aspect-[4/3] overflow-hidden bg-secondary relative rounded-lg flex items-center justify-center">
+        <ImageOff className="w-12 h-12 text-muted-foreground/50" />
+        <p className="absolute bottom-4 text-sm text-muted-foreground">Imagens removidas</p>
+      </div>
+    );
+  }
+
+  // Lógica original do carrossel (mantida, mas só será usada se o PLACEHOLDER_IMAGE for removido futuramente)
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
   const nextImage = () => setCurrentImageIndex((prev) => (prev + 1) % images.length);
   const previousImage = () => setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
 
@@ -252,47 +203,28 @@ const ProjectCarousel = ({ images, title }: { images: string[]; title: string })
 };
 
 const ProjectCard = ({ project, index }: { project: any; index: number }) => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const hasMultipleImages = project.images && project.images.length > 1;
+  const hasMultipleImages = project.images && project.images.length > 1 && project.images[0] !== PLACEHOLDER_IMAGE;
 
-  const nextImage = () => {
-    if (project.images) {
-      setCurrentImageIndex((prev) => (prev + 1) % project.images.length);
-    }
-  };
-
-  const previousImage = () => {
-    if (project.images) {
-      setCurrentImageIndex((prev) => (prev - 1 + project.images.length) % project.images.length);
-    }
-  };
-
-  const currentImage = project.images ? project.images[currentImageIndex] : project.image;
+  // Se for placeholder, não precisamos de estado de índice ou botões de navegação
+  const currentImage = project.image;
 
   return (
     <div 
       className="group relative overflow-hidden rounded-lg border-2 border-border hover:border-primary/50 transition-all duration-300 slide-in-bottom"
       style={{ animationDelay: `${index * 150}ms` }}
     >
-      <div className="aspect-[4/3] overflow-hidden bg-secondary relative">
-        <img 
-          src={currentImage} 
-          alt={project.title}
-          className="w-full h-full object-contain bg-secondary transition-transform duration-500 group-hover:scale-105"
-        />
-        {hasMultipleImages && (
-          <>
-            <Button variant="ghost" size="icon" className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-background/90 hover:bg-primary/90 text-foreground hover:text-primary-foreground" onClick={(e) => { e.stopPropagation(); previousImage(); }}>
-              <ChevronLeft className="h-6 w-6" />
-            </Button>
-            <Button variant="ghost" size="icon" className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-background/90 hover:bg-primary/90 text-foreground hover:text-primary-foreground" onClick={(e) => { e.stopPropagation(); nextImage(); }}>
-              <ChevronRight className="h-6 w-6" />
-            </Button>
-            <div className="absolute bottom-2 right-2 z-20 bg-background/90 px-3 py-1.5 rounded-md text-xs font-semibold text-foreground border border-border">
-              {currentImageIndex + 1} / {project.images.length}
-            </div>
-          </>
+      <div className="aspect-[4/3] overflow-hidden bg-secondary relative flex items-center justify-center">
+        {currentImage === PLACEHOLDER_IMAGE ? (
+          <ImageOff className="w-12 h-12 text-muted-foreground/50" />
+        ) : (
+          <img 
+            src={currentImage} 
+            alt={project.title}
+            className="w-full h-full object-contain bg-secondary transition-transform duration-500 group-hover:scale-105"
+          />
         )}
+        
+        {/* Removemos os botões de navegação da ProjectCard, pois só há um placeholder */}
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent opacity-90 group-hover:opacity-95 transition-opacity" />
       <div className="absolute bottom-0 left-0 right-0 p-6 transform transition-transform duration-300 group-hover:translate-y-0">
