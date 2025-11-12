@@ -52,10 +52,10 @@ import fabricacao14 from "@/assets/fabricacao-14.jpg";
 import fabricacao15 from "@/assets/fabricacao-15.jpg";
 
 // Aterramento images
-import aterramento1 from "@/assets/aterramento-1.jpg";
-import aterramento2 from "@/assets/aterramento-2.jpg";
-import aterramento3 from "@/assets/aterramento-3.jpg";
-import aterramento4 from "@/assets/aterramento-4.jpg";
+import aterramentoA from "@/assets/aterramento-a.jpg";
+import aterramentoB from "@/assets/aterramento-b.jpg";
+import aterramentoC from "@/assets/aterramento-c.jpg";
+import aterramentoD from "@/assets/aterramento-d.jpg";
 
 // Placeholder image
 import project1 from "@/assets/project-1.jpg";
@@ -130,8 +130,8 @@ const projects = [
     ]
   },
   {
-    image: aterramento1,
-    images: [aterramento1, aterramento2, aterramento3, aterramento4],
+    image: aterramentoA,
+    images: [aterramentoA, aterramentoB, aterramentoC, aterramentoD],
     title: "Instalação e Medição de Sistemas de Aterramento Elétrico",
     category: "Segurança Elétrica",
     location: "Projetos de Engenharia",
