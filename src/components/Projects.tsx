@@ -124,8 +124,8 @@ const projects = [
     ]
   },
   {
-    image: project1, // Usando placeholder
-    images: [project1], // Usando placeholder
+    image: "/aterramento-spda.jpg", // Usando o novo caminho público
+    images: ["/aterramento-spda.jpg"], // Usando o novo caminho público
     title: "Instalação e Medição de Sistemas de Aterramento Elétrico",
     category: "Segurança Elétrica",
     location: "Projetos de Engenharia",
