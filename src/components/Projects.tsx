@@ -51,15 +51,6 @@ import fabricacao13 from "@/assets/fabricacao-13.jpg";
 import fabricacao14 from "@/assets/fabricacao-14.jpg";
 import fabricacao15 from "@/assets/fabricacao-15.jpg";
 
-// Aterramento images
-import aterramentoA from "@/assets/aterramento-a.jpg";
-import aterramentoB from "@/assets/aterramento-b.jpg";
-import aterramentoC from "@/assets/aterramento-c.jpg";
-import aterramentoD from "@/assets/aterramento-d.jpg";
-
-// Placeholder image
-import project1 from "@/assets/project-1.jpg";
-
 import { ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-react";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog";
@@ -130,8 +121,8 @@ const projects = [
     ]
   },
   {
-    image: aterramentoA,
-    images: [aterramentoA, aterramentoB, aterramentoC, aterramentoD],
+    image: "/aterramento-a.jpg",
+    images: ["/aterramento-a.jpg", "/aterramento-b.jpg", "/aterramento-c.jpg", "/aterramento-d.jpg"],
     title: "Instalação e Medição de Sistemas de Aterramento Elétrico",
     category: "Segurança Elétrica",
     location: "Projetos de Engenharia",
