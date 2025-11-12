@@ -1,4 +1,5 @@
 import { useState } from "react";
+// Painel images
 import painel1 from "@/assets/painel-1.jpg";
 import painel2 from "@/assets/painel-2.jpg";
 import painel3 from "@/assets/painel-3.jpg";
@@ -9,37 +10,32 @@ import painel9 from "@/assets/painel-9.jpg";
 import painel10 from "@/assets/painel-10.jpg";
 import painel11 from "@/assets/painel-11.jpg";
 import painel12 from "@/assets/painel-12.jpg";
+
+// Leito Cabo images
 import leitoCaboNovo from "@/assets/leito-cabo-novo.jpg";
-import leitoCabo3 from "@/assets/leito-cabo-3.jpg";
-import leitoCabo4 from "@/assets/leito-cabo-4.jpg";
-import leitoCabo5 from "@/assets/leito-cabo-5.jpg";
-import leitoCabo6 from "@/assets/leito-cabo-6.jpg";
-import leitoCabo7 from "@/assets/leito-cabo-7.jpg";
-import leitoCabo8 from "@/assets/leito-cabo-8.jpg";
+import leitoCabo1 from "@/assets/leito-cabo-1.jpg";
 import leitoCabo9 from "@/assets/leito-cabo-9.jpg";
-import leitoCabo10 from "@/assets/leito-cabo-10.jpg";
-import leitoCabo11 from "@/assets/leito-cabo-11.jpg";
-import leitoCabo12 from "@/assets/leito-cabo-12.jpg";
 import leitoCabo13 from "@/assets/leito-cabo-13.jpg";
 import leitoCabo14 from "@/assets/leito-cabo-14.jpg";
 import leitoCabo15 from "@/assets/leito-cabo-15.jpg";
 import leitoCabo16 from "@/assets/leito-cabo-16.jpg";
-import altaTensao1 from "@/assets/alta-tensao-1.jpg";
+
+// Alta Tensao images
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
 import altaTensao3 from "@/assets/alta-tensao-3.jpg";
 import altaTensao4 from "@/assets/alta-tensao-4.jpg";
-import altaTensao5 from "@/assets/alta-tensao-5.jpg";
 import altaTensao6 from "@/assets/alta-tensao-6.jpg";
 import altaTensao7 from "@/assets/alta-tensao-7.jpg";
 import altaTensao8 from "@/assets/alta-tensao-8.jpg";
 import altaTensao9 from "@/assets/alta-tensao-9.jpg";
 import altaTensao10 from "@/assets/alta-tensao-10.jpg";
-import altaTensao11 from "@/assets/alta-tensao-11.jpg";
 import altaTensao12 from "@/assets/alta-tensao-12.jpg";
 import altaTensao13 from "@/assets/alta-tensao-13.jpg";
 import altaTensao14 from "@/assets/alta-tensao-14.jpg";
 import altaTensao15 from "@/assets/alta-tensao-15.jpg";
 import altaTensao16 from "@/assets/alta-tensao-16.jpg";
+
+// Fabricacao images
 import fabricacao1 from "@/assets/fabricacao-1.jpg";
 import fabricacao2 from "@/assets/fabricacao-2.jpg";
 import fabricacao3 from "@/assets/fabricacao-3.jpg";
@@ -55,6 +51,7 @@ import fabricacao12 from "@/assets/fabricacao-12.jpg";
 import fabricacao13 from "@/assets/fabricacao-13.jpg";
 import fabricacao14 from "@/assets/fabricacao-14.jpg";
 import fabricacao15 from "@/assets/fabricacao-15.jpg";
+
 import { ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-react";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog";
@@ -78,8 +75,7 @@ const projects = [
   {
     image: leitoCaboNovo,
     images: [
-      leitoCaboNovo, leitoCabo3, leitoCabo4, leitoCabo5, leitoCabo6, leitoCabo7, leitoCabo8, 
-      leitoCabo9, leitoCabo10, leitoCabo11, leitoCabo12, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16  
+      leitoCaboNovo, leitoCabo1, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16  
     ],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
@@ -94,10 +90,10 @@ const projects = [
     ]
   },
   {
-    image: altaTensao1,
+    image: altaTensao2,
     images: [
-      altaTensao1, altaTensao2, altaTensao3, altaTensao4, altaTensao5, altaTensao6, altaTensao7, 
-      altaTensao8, altaTensao9, altaTensao10, altaTensao11, altaTensao12, altaTensao13, altaTensao14, altaTensao15, altaTensao16  
+      altaTensao2, altaTensao3, altaTensao4, altaTensao6, altaTensao7, 
+      altaTensao8, altaTensao9, altaTensao10, altaTensao12, altaTensao13, altaTensao14, altaTensao15, altaTensao16  
     ],
     title: "Redes Aéreas",
     category: "Infraestrutura Elétrica",
