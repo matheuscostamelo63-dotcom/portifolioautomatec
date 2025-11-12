@@ -51,6 +51,9 @@ import fabricacao13 from "@/assets/fabricacao-13.jpg";
 import fabricacao14 from "@/assets/fabricacao-14.jpg";
 import fabricacao15 from "@/assets/fabricacao-15.jpg";
 
+// Placeholder image for new project
+import project1 from "@/assets/project-1.jpg";
+
 import { ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-react";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog";
@@ -118,6 +121,20 @@ const projects = [
       "Montagem de tubulações e equipamentos industriais.",
       "Soldagem qualificada em diversos processos (TIG, MIG, Eletrodo).",
       "Alinhamento de máquinas e conjuntos mecânicos."
+    ]
+  },
+  {
+    image: project1, // Usando placeholder
+    images: [project1], // Usando placeholder
+    title: "Instalação e Medição de Sistemas de Aterramento Elétrico",
+    category: "Segurança Elétrica",
+    location: "Projetos de Engenharia",
+    technicalDetails: [
+      "Projeto técnico conforme características do solo e das cargas instaladas.",
+      "Instalação de hastes, condutores e conexões com soldagem exotérmica.",
+      "Interligação e equipotencialização de painéis, estruturas e equipamentos.",
+      "Ensaios de resistência ôhmica do aterramento com terrômetro, para comprovar eficiência e conformidade.",
+      "Emissão de laudo técnico e ART com os resultados das medições."
     ]
   }
 ];
