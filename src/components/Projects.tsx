@@ -9,7 +9,7 @@ import painel9 from "@/assets/painel-9.jpg";
 import painel10 from "@/assets/painel-10.jpg";
 import painel11 from "@/assets/painel-11.jpg";
 import painel12 from "@/assets/painel-12.jpg";
-import leitoCaboNovo from "@/assets/leito-cabo-novo.jpg";
+import leitoCabo2 from "@/assets/leito-cabo-2.jpg";
 import leitoCabo3 from "@/assets/leito-cabo-3.jpg";
 import leitoCabo4 from "@/assets/leito-cabo-4.jpg";
 import leitoCabo5 from "@/assets/leito-cabo-5.jpg";
@@ -76,9 +76,9 @@ const projects = [
     ]
   },
   {
-    image: leitoCaboNovo,
+    image: leitoCabo2,
     images: [
-      leitoCaboNovo, leitoCabo3, leitoCabo4, leitoCabo5, leitoCabo6, leitoCabo7, leitoCabo8, 
+      leitoCabo2, leitoCabo3, leitoCabo4, leitoCabo5, leitoCabo6, leitoCabo7, leitoCabo8, 
       leitoCabo9, leitoCabo10, leitoCabo11, leitoCabo12, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16  
     ],
     title: "Caminhamento para Cabos",
