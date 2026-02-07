@@ -1,7 +1,6 @@
 import { useState } from "react";
 // Painel images
 import painel1 from "@/assets/painel-1.jpg";
-import painel2 from "@/assets/painel-2.jpg";
 import painel3 from "@/assets/painel-3.jpg";
 import painel4 from "@/assets/painel-4.jpg";
 import painel7 from "@/assets/painel-7.jpg";
@@ -30,14 +29,14 @@ import leitoCabo25 from "@/assets/leito-cabo-25.jpg";
 import leitoCabo26 from "@/assets/leito-cabo-26.jpg";
 import leitoCabo27 from "@/assets/leito-cabo-27.jpg";
 import leitoCabo28 from "@/assets/leito-cabo-28.jpg";
-import leitoCaboNovo7 from "@/assets/leito-cabo-novo-7.jpg"; 
+import leitoCaboNovo7 from "@/assets/leito-cabo-novo-7.jpg";
 import leitoCaboNovo8 from "@/assets/leito-cabo-novo-8.jpg";
 import leitoCaboNovo9 from "@/assets/leito-cabo-novo-9.jpg";
 import leitoCaboNovo10 from "@/assets/leito-cabo-novo-10.jpg";
-import leitoCaboNovo11 from "@/assets/leito-cabo-novo-11.jpg"; 
-import leitoCaboNovo12 from "@/assets/leito-cabo-novo-12.jpg"; 
-import leitoCaboNovo13 from "@/assets/leito-cabo-novo-13.jpg"; 
-import leitoCaboNovo14 from "@/assets/leito-cabo-novo-14.jpg"; 
+import leitoCaboNovo11 from "@/assets/leito-cabo-novo-11.jpg";
+import leitoCaboNovo12 from "@/assets/leito-cabo-novo-12.jpg";
+import leitoCaboNovo13 from "@/assets/leito-cabo-novo-13.jpg";
+import leitoCaboNovo14 from "@/assets/leito-cabo-novo-14.jpg";
 import leitoCaboNovo15 from "@/assets/leito-cabo-novo-15.jpg"; // Nova imagem importada
 import leitoCaboNovo16 from "@/assets/leito-cabo-novo-16.jpg"; // Nova imagem importada
 
@@ -83,7 +82,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, Dialog
 const projects = [
   {
     image: painel1,
-    images: [painel1, painel2, painel3, painel4, painel7, painel8, painel9, painel10, painel11, painel12],
+    images: [painel1, painel3, painel4, painel7, painel8, painel9, painel10, painel11, painel12],
     title: "Painéis de Controle e QTA",
     category: "Automação & Controle",
     location: "Indústria - Pará",
@@ -102,8 +101,8 @@ const projects = [
       leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16,
       leitoCaboNovo7, // Sétima imagem (índice 6)
       leitoCaboNovo15, leitoCaboNovo16, // Novas imagens adicionadas após a sétima
-      leitoCaboNovo8, leitoCaboNovo9, leitoCaboNovo10, leitoCaboNovo11, leitoCaboNovo12, 
-      leitoCaboNovo13, leitoCaboNovo14, 
+      leitoCaboNovo8, leitoCaboNovo9, leitoCaboNovo10, leitoCaboNovo11, leitoCaboNovo12,
+      leitoCaboNovo13, leitoCaboNovo14,
     ],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
@@ -120,8 +119,8 @@ const projects = [
   {
     image: altaTensao2,
     images: [
-      altaTensao2, altaTensao3, altaTensao4, altaTensao6, altaTensao7, 
-      altaTensao8, altaTensao9, altaTensao10, altaTensao12, altaTensao13, altaTensao14, altaTensao15, altaTensao16  
+      altaTensao2, altaTensao3, altaTensao4, altaTensao6, altaTensao7,
+      altaTensao8, altaTensao9, altaTensao10, altaTensao12, altaTensao13, altaTensao14, altaTensao15, altaTensao16
     ],
     title: "Redes Aéreas",
     category: "Infraestrutura Elétrica",
@@ -136,8 +135,8 @@ const projects = [
   {
     image: fabricacao1,
     images: [
-      fabricacao1, fabricacao2, fabricacao3, fabricacao4, fabricacao5, fabricacao6, fabricacao7, 
-      fabricacao8, fabricacao9, fabricacao10, fabricacao11, fabricacao12, fabricacao13, fabricacao14, fabricacao15  
+      fabricacao1, fabricacao2, fabricacao3, fabricacao4, fabricacao5, fabricacao6, fabricacao7,
+      fabricacao8, fabricacao9, fabricacao10, fabricacao11, fabricacao12, fabricacao13, fabricacao14, fabricacao15
     ],
     title: "Fabricação e Montagem Industrial",
     category: "Engenharia Eletromecânica",
@@ -169,7 +168,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-card relative overflow-hidden">
       <div className="absolute bottom-0 left-0 w-1/2 h-1/2 opacity-5 grid-pattern" />
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 slide-in-bottom">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
@@ -220,7 +219,7 @@ const Projects = () => {
             <div key={`print-${index}`} className="mb-12 print:break-inside-avoid">
               <h3 className="text-3xl font-heading font-bold text-foreground mb-2">{project.title}</h3>
               <p className="text-lg text-muted-foreground mb-6">{project.category} - {project.location}</p>
-              
+
               <h4 className="text-xl font-heading text-accent mb-4">Detalhes Técnicos</h4>
               <ul className="space-y-2 mb-8">
                 {project.technicalDetails.map((detail, i) => (
@@ -233,7 +232,7 @@ const Projects = () => {
 
               <h4 className="text-xl font-heading text-accent mb-4">Galeria de Imagens</h4>
               <div className="grid grid-cols-2 gap-4">
-                {project.images.slice(0, 4).map((image, imgIndex) => (
+                {project.images.map((image, imgIndex) => (
                   <div key={imgIndex} className="aspect-[4/3] overflow-hidden border border-border rounded">
                     <img src={image} alt={`${project.title} - Imagem ${imgIndex + 1}`} className="w-full h-full object-contain bg-secondary" />
                   </div>
@@ -258,8 +257,8 @@ const ProjectCarousel = ({ images, title }: { images: string[]; title: string })
 
   return (
     <div className="aspect-[4/3] overflow-hidden bg-secondary relative rounded-lg">
-      <img 
-        src={currentImage} 
+      <img
+        src={currentImage}
         alt={title}
         className="w-full h-full object-contain bg-secondary transition-opacity duration-300"
       />
@@ -299,13 +298,13 @@ const ProjectCard = ({ project, index }: { project: any; index: number }) => {
   const currentImage = project.images ? project.images[currentImageIndex] : project.image;
 
   return (
-    <div 
+    <div
       className="group relative overflow-hidden rounded-lg border-2 border-border hover:border-primary/50 transition-all duration-300 slide-in-bottom"
       style={{ animationDelay: `${index * 150}ms` }}
     >
       <div className="aspect-[4/3] overflow-hidden bg-secondary relative">
-        <img 
-          src={currentImage} 
+        <img
+          src={currentImage}
           alt={project.title}
           className="w-full h-full object-contain bg-secondary transition-transform duration-500 group-hover:scale-105"
         />
