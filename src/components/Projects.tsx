@@ -30,6 +30,7 @@ import leitoCabo25 from "@/assets/leito-cabo-25.jpg";
 import leitoCabo26 from "@/assets/leito-cabo-26.jpg";
 import leitoCabo27 from "@/assets/leito-cabo-27.jpg";
 import leitoCabo28 from "@/assets/leito-cabo-28.jpg";
+import leitoCaboNovo7 from "@/assets/leito-cabo-novo-7.jpg"; // Nova imagem importada
 
 // Alta Tensao images
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
@@ -90,7 +91,7 @@ const projects = [
     image: leitoCaboNovo,
     images: [
       leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16,
-      // As imagens de leitoCabo17 a leitoCabo28 foram removidas para garantir que apenas 6 imagens sejam exibidas.
+      leitoCaboNovo7, // Nova imagem adicionada
     ],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
