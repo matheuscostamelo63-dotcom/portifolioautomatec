@@ -11,13 +11,19 @@ import painel10 from "@/assets/painel-10.jpg";
 import painel11 from "@/assets/painel-11.jpg";
 import painel12 from "@/assets/painel-12.jpg";
 
-// Leito Cabo images
-import leitoCaboNovo from "@/assets/leito-cabo-novo.jpg";
-import leitoCabo9 from "@/assets/leito-cabo-9.jpg";
-import leitoCabo13 from "@/assets/leito-cabo-13.jpg";
-import leitoCabo14 from "@/assets/leito-cabo-14.jpg";
-import leitoCabo15 from "@/assets/leito-cabo-15.jpg";
-import leitoCabo16 from "@/assets/leito-cabo-16.jpg";
+// Caminhamento images (New imports)
+import caminhamento1 from "@/assets/caminhamento-1.jpg";
+import caminhamento2 from "@/assets/caminhamento-2.jpg";
+import caminhamento3 from "@/assets/caminhamento-3.jpg";
+import caminhamento4 from "@/assets/caminhamento-4.jpg";
+import caminhamento5 from "@/assets/caminhamento-5.jpg";
+import caminhamento6 from "@/assets/caminhamento-6.jpg";
+import caminhamento7 from "@/assets/caminhamento-7.jpg";
+import caminhamento8 from "@/assets/caminhamento-8.jpg";
+import caminhamento9 from "@/assets/caminhamento-9.jpg";
+import caminhamento10 from "@/assets/caminhamento-10.jpg";
+import caminhamento11 from "@/assets/caminhamento-11.jpg";
+import caminhamento12 from "@/assets/caminhamento-12.jpg";
 
 // Alta Tensao images
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
@@ -75,9 +81,10 @@ const projects = [
     ]
   },
   {
-    image: leitoCaboNovo,
+    image: caminhamento1,
     images: [
-      leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16  
+      caminhamento1, caminhamento2, caminhamento3, caminhamento4, caminhamento5, caminhamento6, 
+      caminhamento7, caminhamento8, caminhamento9, caminhamento10, caminhamento11, caminhamento12
     ],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
