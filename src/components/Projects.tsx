@@ -214,7 +214,7 @@ const Projects = () => {
         </div>
 
         {/* Static View for Printing */}
-        <div className="hidden print:block">
+        {/* <div className="hidden print:block">
           {projects.map((project, index) => (
             <div key={`print-${index}`} className="mb-12 print:break-inside-avoid">
               <h3 className="text-3xl font-heading font-bold text-foreground mb-2">{project.title}</h3>
@@ -240,7 +240,7 @@ const Projects = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
