@@ -305,7 +305,7 @@ const ProjectCard = ({ project, index }: { project: any; index: number }) => {
               <ChevronRight className="h-6 w-6" />
             </Button>
             <div className="absolute bottom-2 right-2 z-20 bg-background/90 px-3 py-1.5 rounded-md text-xs font-semibold text-foreground border border-border">
-              {currentImageIndex + 1} / {images.length}
+              {currentImageIndex + 1} / {project.images.length}
             </div>
           </>
         )}
