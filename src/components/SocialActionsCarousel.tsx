@@ -14,7 +14,7 @@ const SocialActionsCarousel: React.FC<SocialActionsCarouselProps> = ({ images, o
   };
 
   const autoplayOptions = {
-    delay: 3000,
+    delay: 2000, // 2 seconds delay (reduced from 3000)
     stopOnInteraction: false,
     stopOnMouseEnter: false,
     rootNode: (emblaRoot: HTMLElement) => emblaRoot.parentElement,
