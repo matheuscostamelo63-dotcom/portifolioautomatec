@@ -31,35 +31,6 @@ import leitoCabo26 from "@/assets/leito-cabo-26.jpg";
 import leitoCabo27 from "@/assets/leito-cabo-27.jpg";
 import leitoCabo28 from "@/assets/leito-cabo-28.jpg";
 
-// Leito Cabo images (Novas - 1 a 12)
-import leitoCaboNovo1 from "@/assets/leito-cabo-novo-1.jpg";
-import leitoCaboNovo2 from "@/assets/leito-cabo-novo-2.jpg";
-import leitoCaboNovo3 from "@/assets/leito-cabo-novo-3.jpg";
-import leitoCaboNovo4 from "@/assets/leito-cabo-novo-4.jpg";
-import leitoCaboNovo5 from "@/assets/leito-cabo-novo-5.jpg";
-import leitoCaboNovo6 from "@/assets/leito-cabo-novo-6.jpg";
-import leitoCaboNovo7 from "@/assets/leito-cabo-novo-7.jpg";
-import leitoCaboNovo8 from "@/assets/leito-cabo-novo-8.jpg";
-import leitoCaboNovo9 from "@/assets/leito-cabo-novo-9.jpg";
-import leitoCaboNovo10 from "@/assets/leito-cabo-novo-10.jpg";
-import leitoCaboNovo11 from "@/assets/leito-cabo-novo-11.jpg";
-import leitoCaboNovo12 from "@/assets/leito-cabo-novo-12.jpg";
-
-// Leito Cabo images (Novas - 13 a 24)
-import leitoCaboNovo13 from "@/assets/leito-cabo-novo-13.jpg";
-import leitoCaboNovo14 from "@/assets/leito-cabo-novo-14.jpg";
-import leitoCaboNovo15 from "@/assets/leito-cabo-novo-15.jpg";
-import leitoCaboNovo16 from "@/assets/leito-cabo-novo-16.jpg";
-import leitoCaboNovo17 from "@/assets/leito-cabo-novo-17.jpg";
-import leitoCaboNovo18 from "@/assets/leito-cabo-novo-18.jpg";
-import leitoCaboNovo19 from "@/assets/leito-cabo-novo-19.jpg";
-import leitoCaboNovo20 from "@/assets/leito-cabo-novo-20.jpg";
-import leitoCaboNovo21 from "@/assets/leito-cabo-novo-21.jpg";
-import leitoCaboNovo22 from "@/assets/leito-cabo-novo-22.jpg";
-import leitoCaboNovo23 from "@/assets/leito-cabo-novo-23.jpg";
-import leitoCaboNovo24 from "@/assets/leito-cabo-novo-24.jpg";
-
-
 // Alta Tensao images
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
 import altaTensao3 from "@/assets/alta-tensao-3.jpg";
@@ -120,13 +91,7 @@ const projects = [
     images: [
       leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16,
       leitoCabo17, leitoCabo18, leitoCabo19, leitoCabo20, leitoCabo21, leitoCabo22,
-      leitoCabo23, leitoCabo24, leitoCabo25, leitoCabo26, leitoCabo27, leitoCabo28,
-      // Imagens Novas (1 a 12)
-      leitoCaboNovo1, leitoCaboNovo2, leitoCaboNovo3, leitoCaboNovo4, leitoCaboNovo5, leitoCaboNovo6,
-      leitoCaboNovo7, leitoCaboNovo8, leitoCaboNovo9, leitoCaboNovo10, leitoCaboNovo11, leitoCaboNovo12,
-      // Imagens Novas (13 a 24)
-      leitoCaboNovo13, leitoCaboNovo14, leitoCaboNovo15, leitoCaboNovo16, leitoCaboNovo17, leitoCaboNovo18,
-      leitoCaboNovo19, leitoCaboNovo20, leitoCaboNovo21, leitoCaboNovo22, leitoCaboNovo23, leitoCaboNovo24
+      leitoCabo23, leitoCabo24, leitoCabo25, leitoCabo26, leitoCabo27, leitoCabo28
     ],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
