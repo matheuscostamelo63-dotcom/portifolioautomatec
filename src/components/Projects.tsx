@@ -34,8 +34,10 @@ import leitoCaboNovo7 from "@/assets/leito-cabo-novo-7.jpg";
 import leitoCaboNovo8 from "@/assets/leito-cabo-novo-8.jpg";
 import leitoCaboNovo9 from "@/assets/leito-cabo-novo-9.jpg";
 import leitoCaboNovo10 from "@/assets/leito-cabo-novo-10.jpg";
-import leitoCaboNovo11 from "@/assets/leito-cabo-novo-11.jpg"; // Nova imagem importada
-import leitoCaboNovo12 from "@/assets/leito-cabo-novo-12.jpg"; // Nova imagem importada
+import leitoCaboNovo11 from "@/assets/leito-cabo-novo-11.jpg"; 
+import leitoCaboNovo12 from "@/assets/leito-cabo-novo-12.jpg"; 
+import leitoCaboNovo13 from "@/assets/leito-cabo-novo-13.jpg"; // Nova imagem importada
+import leitoCaboNovo14 from "@/assets/leito-cabo-novo-14.jpg"; // Nova imagem importada
 
 // Alta Tensao images
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
@@ -96,7 +98,8 @@ const projects = [
     image: leitoCaboNovo,
     images: [
       leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16,
-      leitoCaboNovo7, leitoCaboNovo8, leitoCaboNovo9, leitoCaboNovo10, leitoCaboNovo11, leitoCaboNovo12, // Novas imagens adicionadas
+      leitoCaboNovo7, leitoCaboNovo8, leitoCaboNovo9, leitoCaboNovo10, leitoCaboNovo11, leitoCaboNovo12, // 12 imagens existentes
+      leitoCaboNovo13, leitoCaboNovo14, // Novas imagens adicionadas
     ],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
