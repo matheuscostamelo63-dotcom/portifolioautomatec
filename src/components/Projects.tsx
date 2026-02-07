@@ -11,7 +11,7 @@ import painel10 from "@/assets/painel-10.jpg";
 import painel11 from "@/assets/painel-11.jpg";
 import painel12 from "@/assets/painel-12.jpg";
 
-// Leito Cabo images
+// Leito Cabo images (Originais)
 import leitoCaboNovo from "@/assets/leito-cabo-novo.jpg";
 import leitoCabo9 from "@/assets/leito-cabo-9.jpg";
 import leitoCabo13 from "@/assets/leito-cabo-13.jpg";
@@ -30,6 +30,21 @@ import leitoCabo25 from "@/assets/leito-cabo-25.jpg";
 import leitoCabo26 from "@/assets/leito-cabo-26.jpg";
 import leitoCabo27 from "@/assets/leito-cabo-27.jpg";
 import leitoCabo28 from "@/assets/leito-cabo-28.jpg";
+
+// Leito Cabo images (Novas)
+import leitoCaboNovo1 from "@/assets/leito-cabo-novo-1.jpg";
+import leitoCaboNovo2 from "@/assets/leito-cabo-novo-2.jpg";
+import leitoCaboNovo3 from "@/assets/leito-cabo-novo-3.jpg";
+import leitoCaboNovo4 from "@/assets/leito-cabo-novo-4.jpg";
+import leitoCaboNovo5 from "@/assets/leito-cabo-novo-5.jpg";
+import leitoCaboNovo6 from "@/assets/leito-cabo-novo-6.jpg";
+import leitoCaboNovo7 from "@/assets/leito-cabo-novo-7.jpg";
+import leitoCaboNovo8 from "@/assets/leito-cabo-novo-8.jpg";
+import leitoCaboNovo9 from "@/assets/leito-cabo-novo-9.jpg";
+import leitoCaboNovo10 from "@/assets/leito-cabo-novo-10.jpg";
+import leitoCaboNovo11 from "@/assets/leito-cabo-novo-11.jpg";
+import leitoCaboNovo12 from "@/assets/leito-cabo-novo-12.jpg";
+
 
 // Alta Tensao images
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
@@ -91,7 +106,10 @@ const projects = [
     images: [
       leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16,
       leitoCabo17, leitoCabo18, leitoCabo19, leitoCabo20, leitoCabo21, leitoCabo22,
-      leitoCabo23, leitoCabo24, leitoCabo25, leitoCabo26, leitoCabo27, leitoCabo28
+      leitoCabo23, leitoCabo24, leitoCabo25, leitoCabo26, leitoCabo27, leitoCabo28,
+      // Novas imagens adicionadas
+      leitoCaboNovo1, leitoCaboNovo2, leitoCaboNovo3, leitoCaboNovo4, leitoCaboNovo5, leitoCaboNovo6,
+      leitoCaboNovo7, leitoCaboNovo8, leitoCaboNovo9, leitoCaboNovo10, leitoCaboNovo11, leitoCaboNovo12
     ],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
