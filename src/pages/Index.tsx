@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Clients from "@/components/Clients";
+import SocialActions from "@/components/SocialActions";
 
 const Index = () => {
   return (
@@ -20,6 +21,9 @@ const Index = () => {
       </div>
       <div className="print:break-before-page">
         <Clients />
+      </div>
+      <div className="print:break-before-page">
+        <SocialActions />
       </div>
       <div className="print:break-before-page">
         <Contact />
