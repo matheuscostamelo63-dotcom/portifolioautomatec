@@ -18,6 +18,18 @@ import leitoCabo13 from "@/assets/leito-cabo-13.jpg";
 import leitoCabo14 from "@/assets/leito-cabo-14.jpg";
 import leitoCabo15 from "@/assets/leito-cabo-15.jpg";
 import leitoCabo16 from "@/assets/leito-cabo-16.jpg";
+import leitoCabo17 from "@/assets/leito-cabo-17.jpg";
+import leitoCabo18 from "@/assets/leito-cabo-18.jpg";
+import leitoCabo19 from "@/assets/leito-cabo-19.jpg";
+import leitoCabo20 from "@/assets/leito-cabo-20.jpg";
+import leitoCabo21 from "@/assets/leito-cabo-21.jpg";
+import leitoCabo22 from "@/assets/leito-cabo-22.jpg";
+import leitoCabo23 from "@/assets/leito-cabo-23.jpg";
+import leitoCabo24 from "@/assets/leito-cabo-24.jpg";
+import leitoCabo25 from "@/assets/leito-cabo-25.jpg";
+import leitoCabo26 from "@/assets/leito-cabo-26.jpg";
+import leitoCabo27 from "@/assets/leito-cabo-27.jpg";
+import leitoCabo28 from "@/assets/leito-cabo-28.jpg";
 
 // Alta Tensao images
 import altaTensao2 from "@/assets/alta-tensao-2.jpg";
@@ -77,7 +89,9 @@ const projects = [
   {
     image: leitoCaboNovo,
     images: [
-      leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16  
+      leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16,
+      leitoCabo17, leitoCabo18, leitoCabo19, leitoCabo20, leitoCabo21, leitoCabo22,
+      leitoCabo23, leitoCabo24, leitoCabo25, leitoCabo26, leitoCabo27, leitoCabo28
     ],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
