@@ -90,8 +90,7 @@ const projects = [
     image: leitoCaboNovo,
     images: [
       leitoCaboNovo, leitoCabo9, leitoCabo13, leitoCabo14, leitoCabo15, leitoCabo16,
-      leitoCabo17, leitoCabo18, leitoCabo19, leitoCabo20, leitoCabo21, leitoCabo22,
-      leitoCabo23, leitoCabo24, leitoCabo25, leitoCabo26, leitoCabo27, leitoCabo28
+      // As imagens de leitoCabo17 a leitoCabo28 foram removidas para garantir que apenas 6 imagens sejam exibidas.
     ],
     title: "Caminhamento para Cabos",
     category: "Infraestrutura Elétrica",
@@ -306,7 +305,7 @@ const ProjectCard = ({ project, index }: { project: any; index: number }) => {
               <ChevronRight className="h-6 w-6" />
             </Button>
             <div className="absolute bottom-2 right-2 z-20 bg-background/90 px-3 py-1.5 rounded-md text-xs font-semibold text-foreground border border-border">
-              {currentImageIndex + 1} / {project.images.length}
+              {currentImageIndex + 1} / {images.length}
             </div>
           </>
         )}
