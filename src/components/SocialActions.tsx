@@ -7,11 +7,14 @@ const socialActionImages = [
   "/social-actions/social-action-3.jpg",
   // "/social-actions/social-action-4.jpg", // Removida
   "/social-actions/social-action-5.jpg",
-  "/social-actions/social-action-6.jpg",
+  "/social-actions/social-action-6.jpg", // Esta é a 5ª imagem (índice 4)
   "/social-actions/social-action-7.jpg",
 ];
 
 const SocialActions = () => {
+  // A 5ª imagem está no índice 4
+  const printImage = socialActionImages[4];
+
   return (
     <section id="social-actions" className="py-24 bg-background relative overflow-hidden">
       {/* Technical Pattern Background */}
@@ -39,9 +42,18 @@ const SocialActions = () => {
             </p>
           </div>
 
-          {/* Carousel */}
-          <div className="slide-in-right">
+          {/* Carousel (Screen View) */}
+          <div className="slide-in-right print:hidden">
             <SocialActionsCarousel images={socialActionImages} />
+          </div>
+
+          {/* Static Image (Print View) */}
+          <div className="hidden print:block rounded-lg border border-border shadow-xl overflow-hidden">
+            <img
+              src={printImage}
+              alt="Ação Solidária em Destaque para Impressão"
+              className="w-full h-full object-cover aspect-[4/3]"
+            />
           </div>
         </div>
       </div>
