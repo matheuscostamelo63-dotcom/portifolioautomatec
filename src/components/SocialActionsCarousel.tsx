@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React from "react";
 import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { cn } from "@/lib/utils";
 
 interface SocialActionsCarouselProps {
   images: string[];
@@ -10,39 +9,17 @@ interface SocialActionsCarouselProps {
 
 const SocialActionsCarousel: React.FC<SocialActionsCarouselProps> = ({ images, options }) => {
   const autoplayOptions = {
-    delay: 4000, // 4 seconds delay
-    stopOnInteraction: true,
+    delay: 3000, // 3 seconds delay (reduced from 4000)
+    stopOnInteraction: false, // Removed stop on interaction
     stopOnMouseEnter: false,
-    rootNode: (emblaRoot) => emblaRoot.parentElement,
+    rootNode: (emblaRoot: HTMLElement) => emblaRoot.parentElement,
   };
 
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay(autoplayOptions)]);
-  const [hasInteracted, setHasInteracted] = useState(false);
-
-  const handleInteraction = useCallback(() => {
-    if (emblaApi && !hasInteracted) {
-      const autoplay = emblaApi.plugins().autoplay;
-      if (autoplay) {
-        autoplay.stop();
-        setHasInteracted(true);
-      }
-    }
-  }, [emblaApi, hasInteracted]);
-
-  useEffect(() => {
-    if (emblaApi) {
-      emblaApi.on("pointerDown", handleInteraction);
-    }
-    return () => {
-      if (emblaApi) {
-        emblaApi.off("pointerDown", handleInteraction);
-      }
-    };
-  }, [emblaApi, handleInteraction]);
+  const [emblaRef] = useEmblaCarousel(options, [Autoplay(autoplayOptions)]);
 
   return (
     <div className="embla overflow-hidden rounded-lg border border-border shadow-xl" ref={emblaRef}>
-      <div className="embla__container flex h-full cursor-pointer" onClick={handleInteraction}>
+      <div className="embla__container flex h-full">
         {images.map((image, index) => (
           <div className="embla__slide flex-shrink-0 flex-grow-0 basis-full min-w-0 h-full" key={index}>
             <img
