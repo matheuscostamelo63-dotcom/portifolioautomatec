@@ -8,14 +8,19 @@ interface SocialActionsCarouselProps {
 }
 
 const SocialActionsCarousel: React.FC<SocialActionsCarouselProps> = ({ images, options }) => {
+  const defaultOptions: EmblaOptionsType = {
+    loop: true, // Habilita o loop infinito
+    ...options,
+  };
+
   const autoplayOptions = {
-    delay: 3000, // 3 seconds delay (reduced from 4000)
-    stopOnInteraction: false, // Removed stop on interaction
+    delay: 3000,
+    stopOnInteraction: false,
     stopOnMouseEnter: false,
     rootNode: (emblaRoot: HTMLElement) => emblaRoot.parentElement,
   };
 
-  const [emblaRef] = useEmblaCarousel(options, [Autoplay(autoplayOptions)]);
+  const [emblaRef] = useEmblaCarousel(defaultOptions, [Autoplay(autoplayOptions)]);
 
   return (
     <div className="embla overflow-hidden rounded-lg border border-border shadow-xl" ref={emblaRef}>

@@ -5,7 +5,7 @@ const socialActionImages = [
   "/social-actions/social-action-1.jpg",
   "/social-actions/social-action-2.jpg",
   "/social-actions/social-action-3.jpg",
-  "/social-actions/social-action-4.jpg",
+  // "/social-actions/social-action-4.jpg", // Removida
   "/social-actions/social-action-5.jpg",
   "/social-actions/social-action-6.jpg",
   "/social-actions/social-action-7.jpg",
