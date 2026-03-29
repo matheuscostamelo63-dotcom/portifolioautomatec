@@ -1,11 +1,19 @@
 import denpasaLogo from '@/assets/clients/denpasa-logo.png';
 import oleoplanLogo from '@/assets/clients/oleoplan-logo.png';
 import vilaNovaLogo from '@/assets/clients/vila-nova-logo.png';
+const awkLogo = '/awk.png';
+const jbsLogo = '/jbs.png';
+const rgIndLogo = '/rg ind.png';
+const masterLogo = '/master.png';
 
 const clients = [
   { name: 'Denpasa', logo: denpasaLogo },
   { name: 'Oleo Plan', logo: oleoplanLogo },
   { name: 'Vila Nova Agroindustrial', logo: vilaNovaLogo },
+  { name: 'AWK', logo: awkLogo },
+  { name: 'JBS', logo: jbsLogo },
+  { name: 'RG Ind', logo: rgIndLogo },
+  { name: 'Master', logo: masterLogo },
 ];
 
 const Clients = () => {
@@ -24,15 +32,19 @@ const Clients = () => {
         </div>
 
         {/* Clients Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8 max-w-6xl mx-auto">
           {clients.map((client, index) => (
             <div
               key={index}
-              className="flex items-center justify-center p-6 bg-secondary/50 border border-border rounded-lg transition-all duration-300 hover:border-primary hover:bg-secondary h-40"
+              className="group flex items-center justify-center p-8 bg-secondary/50 border border-border rounded-xl transition-all duration-300 hover:border-primary hover:bg-secondary hover:shadow-lg hover:-translate-y-1 h-48"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {client.logo ? (
-                <img src={client.logo} alt={client.name} className="max-h-24 w-auto" />
+                <img 
+                  src={client.logo} 
+                  alt={client.name} 
+                  className="max-h-32 max-w-full w-auto object-contain transition-transform duration-300 group-hover:scale-110" 
+                />
               ) : (
                 <h3 className="text-xl font-semibold text-center text-muted-foreground group-hover:text-foreground transition-colors">
                   <span translate="no">{client.name}</span>
