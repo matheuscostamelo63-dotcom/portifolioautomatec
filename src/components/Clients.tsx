@@ -3,7 +3,6 @@ import oleoplanLogo from '@/assets/clients/oleoplan-logo.png';
 import vilaNovaLogo from '@/assets/clients/vila-nova-logo.png';
 const awkLogo = '/awk.png';
 const jbsLogo = '/jbs.png';
-const rgIndLogo = '/rg ind.png';
 const masterLogo = '/master.png';
 
 const clients = [
@@ -12,7 +11,6 @@ const clients = [
   { name: 'Vila Nova Agroindustrial', logo: vilaNovaLogo },
   { name: 'AWK', logo: awkLogo },
   { name: 'JBS', logo: jbsLogo },
-  { name: 'RG Ind', logo: rgIndLogo },
   { name: 'Master', logo: masterLogo },
 ];
 
